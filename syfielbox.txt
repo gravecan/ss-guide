@@ -1,0 +1,8 @@
+journal - https://dl.echo.ac/tool/journal
+everything - https://www.voidtools.com/
+system informer - https://systeminformer.sourceforge.io/downloads
+bamparser - https://github.com/spokwn/BAM-parser/releases/download/v1.2.6/BAMParser.exe
+last activity view - https://www.nirsoft.net/utils/lastactivityview.zip
+ads - https://www.nirsoft.net/utils/alternatestreamview-x64.zip
+prefetch view - https://www.nirsoft.net/utils/winprefetchview-x64.zip
+fileless detector - https://github.com/Orbdiff/Fileless

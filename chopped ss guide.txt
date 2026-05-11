@@ -1,0 +1,272 @@
+printulcezar
+printulcezar
+Do Not Disturb
+P
+printulcezar — 7/23/2024 4:13 PM
+sunt vc cu teletobiz
+da nu ii zi lu best
+si fi atent
+asta teletobiz
+a zis ca best a zis ca intr o zi - doua nu o sa mai am cont
+da nu cred ca stie ca ii trebuie parola noua sau numarul de telefon a lu tata ca sa poata sa schimbe parola
+Tragic — 7/23/2024 4:19 PM
+ok
+da trebuie sa stau sa imi caut moduri acm si e annoying tbh
+printulcezar — 7/23/2024 4:20 PM
+ba
+fi atent
+vrei seara asta sa iti trimit modurile mele de feather 1.18.2?
+Tragic — 7/23/2024 4:20 PM
+nu mai am feather ;p
+printulcezar — 7/23/2024 4:20 PM
+pai pe ce joci
+Tragic — 7/23/2024 4:21 PM
+tlauncher
+printulcezar — 7/23/2024 4:21 PM
+a da am uitat
+printulcezar — 7/23/2024 4:21 PM
+pot sa iti dau moduri care le am pe feather sa le pui pe tlauncher
+Tragic — 7/25/2024 6:11 PM
+ba
+cf
+printulcezar — 7/25/2024 6:12 PM
+eu bn
+tu ?
+printulcezar — 7/25/2024 6:55 PM
+@vase: https://www.mediafire.com/folder/ysnpa3sqdcj9r/Mods
+MediaFire
+MediaFire
+MediaFire is a simple to use free service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere.
+Image
+(nu baga in seama
+Tragic — 7/25/2024 6:55 PM
+ce e asta
+printulcezar — 7/26/2024 7:05 PM
+https://www.mediafire.com/file/m5bxknwqlhkt86e/Untitled.mov/file
+MediaFire
+Untitled
+Untitled
+@vase: https://www.mediafire.com/folder/ysnpa3sqdcj9r/Mods
+MediaFire
+MediaFire
+MediaFire is a simple to use free service that lets you put all your photos, documents, music, and video in a single place so you can access them anywhere and share them everywhere.
+Image
+printulcezar — 8/1/2024 4:05 PM
+Forwarded
+8zQ>P
+_]&sf
+3m!>
+p~,R
+tsEK$
+nXw]s
+hYx%J
+nu baga in seama
+Tragic — 8/1/2024 4:08 PM
+wut
+printulcezar — 8/1/2024 4:08 PM
+https://vm.tiktok.com/ZGe7U2wJn/
+TikTok
+TikTok · daniynox
+2361 likes, 36 comments. “mici cu muștar”
+TikTok · daniynox
+printulcezar — 8/1/2024 11:13 PM
+Forwarded
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)
+First of all check their minecraft, what version, client etc. 
+Here's some useful info when it comes to the clients itself. 
+
+Lunar 1.19.3, 1.19.2, 1.19, 1.18.2, 1.18, 1.17.1, 1.17, 1.16.5 Are very unlikely to have a cheater on, As their client requires mappings that are harder for client developers to get.
+Badlion All versions apart from 1.12, 1.17.1 Are very unlikely to have a cheater on.
+Fabric based client Feather Fabric, Quilt, Fabric, Any fork of the Fabric that uses it's API can be used with Fabric mods Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Forge based client Labymod, Feather Forge, Any client using Forge Modding API, Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Other If you're completely unsure what client they're using etc, Just do the basics anyways.
+
+Once you've done that, Check their mods folder by running either commands 
+
+Feather Client
+WIN + R » %USERPROFILE%\AppData\Roaming.feather\user-mods 
+Minecraft Launcher 
+WIN + R » %USERPROFILE%\AppData\Roaming.minecraft\mods 
+Other
+I'd recommend searching it up, shouldn’t be too hard.
+
+
+Make sure you check the Date Modified part of each folder, if the following folders were modified while MC was running, you can ban the person. 
+Minecraft Launcher Mods
+Feather Client -> Feather Mods
+
+When it comes to resource packs, check if the resourcepack folder was modified very recently, check for after they we're frozen especially. If there is any folders todo with mods/addons etc, things that shouldn't be modified normally when the games running. If those folders were modified that should be alarming. To check the recycling bin you can do:
+WIN + R » "Control Folders" » View » "Hidden Files and Folders" » "Show hidden files, folders and drives" WIN + R » C:$Recycle.bin 
+Once you've done that, You should be able to easily and effectively check the recycling bin.
+
+Deleted Files, Injected DLLs, Decompile Mods 
+
+To check what a mod contains etc, If the mod the player may be using has any type of self-destruct mechanism, Here's what you should do. 
+Download Recaf
+Run Recaf
+Once you've opened it, drag the mod you suspect to be a cheat into the place where it says "Drop application [class/jar] to begin.” 
+Go to Search Which is located at the top.
+Once you're at Search Click on "Strings" where it says "String, Content of the string" Put in the value that could be in the client, For instance reach etc
+
+Windows System 
+
+Services 
+The services we're allowed to ban for if their disabled include. 
+Sysmain » Prefetch depends on it
+Pcasvc » Helps us with file logging
+DPS » Helps us with strings, timestamps etc
+Dusmsvc » Needed for event logging, most forensics tools use it
+Eventlog » Needed for event logging
+Appinfo » Needed for providing info about most processes
+BAM » Needed for providing info on background processes Recent.
+
+This path will show the most recently used files, folders, etc. 
+This is very simple to access. To do so simply run: 
+WIN + R » Shell:recent 
+
+Echo
+If you own echo, run a quick echo scan through the person
+Make sure to have all the echo strings from every possible client there is
+If you are not sure ask another staff if there is one available at the moment
+Warning: Echo can false flag a lot so be aware of the false flags^
+
+USB
+USB Cheating is known for using Doomsday, if you cannot find anything in the app Process Hacker 2 ( Doomsday Strings) and you do not own the Echo USB String try going into the Explorer and search for USB, also check their Notifications ( bottom right of taskbar)
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)
+Collapse
+ssguideithink.txt
+4 KB
+Forwarded
+https://youtu.be/GbGVe7ZYOM8
+YouTube
+mafiqtabg2
+ss gui 4
+nu baga in seama(am luat staff pe sneak)
+Forwarded
+Attachment file type: archive
+SS_GUIDE.rar
+3.59 KB
+Tragic — 8/1/2024 11:15 PM
+W
+printulcezar — 8/1/2024 11:17 PM
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+Image
+le salvez in caz ca imi iau demote
+Tragic — 8/1/2024 11:19 PM
+bine jaja 🥶
+printulcezar — 8/1/2024 11:19 PM
+skibidi
+Tragic — 8/1/2024 11:30 PM
+skibidi toilet jaja
+Tragic — 8/31/2024 1:19 PM
+@printulcezar
+vee cee?
+Tragic — 8/31/2024 2:21 PM
+@printulcezar
+vcccccccc
+vc
+c
+vc
+vc
+vc
+vcv
+cvd
+﻿
+printulcezar — 8/1/2024 4:05 PM
+Forwarded
+8zQ>P
+_]&sf
+3m!>
+p~,R
+tsEK$
+nXw]s
+hYx%J
+Tragic — 7/23/2024 4:20 PM
+nu mai am feather ;p
+Tragic — 3/21/2024 7:59 PM
+https://s.team/p/jfdb-ttcp/MVDGCGMN
+Sign In
+Sign In
+printulcezar — 2/6/2024 4:54 PM
+3m!>
+s)B!
+p~,R
+printulcezar — 2/5/2024 4:51 PM
+https://s.team/p/hhfh-qbtc/vhhrgfcg
+Sign In
+Sign In
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)
+First of all check their minecraft, what version, client etc. 
+Here's some useful info when it comes to the clients itself. 
+
+Lunar 1.19.3, 1.19.2, 1.19, 1.18.2, 1.18, 1.17.1, 1.17, 1.16.5 Are very unlikely to have a cheater on, As their client requires mappings that are harder for client developers to get.
+Badlion All versions apart from 1.12, 1.17.1 Are very unlikely to have a cheater on.
+Fabric based client Feather Fabric, Quilt, Fabric, Any fork of the Fabric that uses it's API can be used with Fabric mods Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Forge based client Labymod, Feather Forge, Any client using Forge Modding API, Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Other If you're completely unsure what client they're using etc, Just do the basics anyways.
+
+Once you've done that, Check their mods folder by running either commands 
+
+Feather Client
+WIN + R » %USERPROFILE%\AppData\Roaming.feather\user-mods 
+Minecraft Launcher 
+WIN + R » %USERPROFILE%\AppData\Roaming.minecraft\mods 
+Other
+I'd recommend searching it up, shouldn’t be too hard.
+
+
+Make sure you check the Date Modified part of each folder, if the following folders were modified while MC was running, you can ban the person. 
+Minecraft Launcher Mods
+Feather Client -> Feather Mods
+
+When it comes to resource packs, check if the resourcepack folder was modified very recently, check for after they we're frozen especially. If there is any folders todo with mods/addons etc, things that shouldn't be modified normally when the games running. If those folders were modified that should be alarming. To check the recycling bin you can do:
+WIN + R » "Control Folders" » View » "Hidden Files and Folders" » "Show hidden files, folders and drives" WIN + R » C:$Recycle.bin 
+Once you've done that, You should be able to easily and effectively check the recycling bin.
+
+Deleted Files, Injected DLLs, Decompile Mods 
+
+To check what a mod contains etc, If the mod the player may be using has any type of self-destruct mechanism, Here's what you should do. 
+Download Recaf
+Run Recaf
+Once you've opened it, drag the mod you suspect to be a cheat into the place where it says "Drop application [class/jar] to begin.” 
+Go to Search Which is located at the top.
+Once you're at Search Click on "Strings" where it says "String, Content of the string" Put in the value that could be in the client, For instance reach etc
+
+Windows System 
+
+Services 
+The services we're allowed to ban for if their disabled include. 
+Sysmain » Prefetch depends on it
+Pcasvc » Helps us with file logging
+DPS » Helps us with strings, timestamps etc
+Dusmsvc » Needed for event logging, most forensics tools use it
+Eventlog » Needed for event logging
+Appinfo » Needed for providing info about most processes
+BAM » Needed for providing info on background processes Recent.
+
+This path will show the most recently used files, folders, etc. 
+This is very simple to access. To do so simply run: 
+WIN + R » Shell:recent 
+
+Echo
+If you own echo, run a quick echo scan through the person
+Make sure to have all the echo strings from every possible client there is
+If you are not sure ask another staff if there is one available at the moment
+Warning: Echo can false flag a lot so be aware of the false flags^
+
+USB
+USB Cheating is known for using Doomsday, if you cannot find anything in the app Process Hacker 2 ( Doomsday Strings) and you do not own the Echo USB String try going into the Explorer and search for USB, also check their Notifications ( bottom right of taskbar)
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)

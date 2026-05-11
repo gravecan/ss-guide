@@ -1,0 +1,445 @@
+import "console"
+import "pe"
+/*
+   Author: REIDEN / reidentheking
+*/
+{
+rule REIDENDetections_420 {
+   strings:
+      $s1 = "VCRUNTIME140_1.dll" fullword ascii
+      $s2 = "9NT.BeEyE" fullword ascii
+      $s3 = "* Boif" fullword ascii
+      $s4 = "rUnW.j.k" fullword ascii
+      $s5 = "__CxxFrameHandler4" fullword ascii
+      $s6 = "m:\"h3q" fullword ascii
+      $s7 = "BrW.hHZ" fullword ascii /* score: '7.00'*/
+      $s8 = "D8p.Rie(" fullword ascii /* score: '7.00'*/
+      $s9 = "AVATARA" fullword ascii /* score: '6.50'*/
+      $s10 = "AQATARD" fullword ascii /* score: '6.50'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 9000KB and
+      all of them
+}
+
+rule REIDENDetections_crim {
+   strings:
+      $x1 = "C:\\Users\\Mark\\Projects\\C++\\sugma-clicker\\sugma-launcher\\bin\\x64\\Release\\sugma-launcher.pdb" fullword ascii /* score: '36.00'*/
+      $s2 = "VCRUNTIME140_1.dll" fullword ascii /* score: '23.00'*/
+      $s3 = "\\crim.dll" fullword ascii /* score: '21.00'*/
+      $s4 = "        <requestedExecutionLevel level='asInvoker' uiAccess='false' />" fullword ascii /* score: '15.00'*/
+      $s5 = "Injected %p" fullword ascii /* score: '14.00'*/
+      $s6 = ".data$rs" fullword ascii /* score: '8.00'*/
+      $s7 = "__CxxFrameHandler4" fullword ascii /* score: '7.00'*/
+      $s8 = "  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">" fullword ascii /* score: '7.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 60KB and
+      1 of ($x*) and all of them
+}
+
+rule StrikerAimAssist {
+   strings:
+      $x1 = "C:\\Users\\david\\Desktop\\LunarAimAssist\\x64\\Release\\LunarAimAssist.pdb" fullword ascii /* score: '33.00'*/
+      $s2 = "api-ms-win-core-synch-l1-2-0.dll" fullword wide /* reversed goodware string 'lld.0-2-1l-hcnys-eroc-niw-sm-ipa' */ /* score: '30.00'*/
+      $s3 = "VCRUNTIME140_1.dll" fullword ascii /* score: '23.00'*/
+      $s4 = "You may use this font as permitted by the EULA for the product in which this font is included to display and print content. You " wide /* score: '22.00'*/
+      $s5 = "SemiBoldKanithttps://scripts.sil.org/OFLThis Font Software is licensed under the SIL Open Font License, Version 1.1. This licens" wide /* score: '22.00'*/
+      $s6 = "xinput1_2.dll" fullword ascii /* score: '20.00'*/
+      $s7 = "xinput1_1.dll" fullword ascii /* score: '20.00'*/
+      $s8 = "3532655467" ascii /* score: '17.00'*/ /* hex encoded string '52eTg' */
+      $s9 = "http://www.microsoft.com/typography/fonts/" fullword wide /* score: '17.00'*/
+      $s10 = "547676767632" ascii /* score: '17.00'*/ /* hex encoded string 'Tvvvv2' */
+   condition:
+      uint16(0) == 0x5a4d and filesize < 3000KB and
+      1 of ($x*) and all of them
+}
+
+rule REIDENDetections_crim_2 {
+   strings:
+      $x1 = "C:\\Users\\Mark\\Projects\\C++\\sugma-clicker\\sugma-cheat\\bin\\x64\\Release\\sugma-cheat.pdb" fullword ascii /* score: '36.00'*/
+      $s2 = "api-ms-win-core-synch-l1-2-0.dll" fullword wide /* reversed goodware string 'lld.0-2-1l-hcnys-eroc-niw-sm-ipa' */ /* score: '30.00'*/
+      $s3 = "Failed to find lwjgl64.dll" fullword ascii /* score: '23.00'*/
+      $s4 = "lwjgl64.dll" fullword wide /* score: '23.00'*/
+      $s5 = "Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)Archivo NarrowBold2.001;OMNI;Ar" wide /* score: '22.00'*/
+      $s6 = "xinput1_2.dll" fullword ascii /* score: '20.00'*/
+      $s7 = "AppPolicyGetProcessTerminationMethod" fullword ascii /* score: '20.00'*/
+      $s8 = "xinput1_1.dll" fullword ascii /* score: '20.00'*/
+      $s9 = "imgui_log.txt" fullword ascii /* score: '16.00'*/
+      $s10 = "MH_ERROR_NOT_EXECUTABLE" fullword ascii /* score: '15.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 13000KB and
+      1 of ($x*) and all of them
+}
+
+rule REIDENDetections_Hamzee {
+   strings:
+      $s1 = "api-ms-win-core-synch-l1-2-0.dll" fullword wide /* reversed goodware string 'lld.0-2-1l-hcnys-eroc-niw-sm-ipa' */ /* score: '30.00'*/
+      $s2 = "Win32: Failed to load user32.dll" fullword ascii /* score: '26.00'*/
+      $s3 = "WGL: Failed to load opengl32.dll" fullword ascii /* score: '23.00'*/
+      $s4 = "GLESv2.dll" fullword ascii /* score: '23.00'*/
+      $s5 = "Win32: Failed to load winmm.dll" fullword ascii /* score: '23.00'*/
+      $s6 = "OSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s7 = "0winmm.dll" fullword ascii /* score: '23.00'*/
+      $s8 = "libOSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s9 = "xinput1_2.dll" fullword ascii /* score: '20.00'*/
+      $s10 = "AppPolicyGetProcessTerminationMethod" fullword ascii /* score: '20.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 17000KB and
+      all of them
+}
+
+rule HamzeeClickerStrings {
+   strings:
+      $s1 = "Win32: Failed to load user32.dll" fullword ascii /* score: '26.00'*/
+      $s2 = "WGL: Failed to load opengl32.dll" fullword ascii /* score: '23.00'*/
+      $s3 = "GLESv2.dll" fullword ascii /* score: '23.00'*/
+      $s4 = "Win32: Failed to load winmm.dll" fullword ascii /* score: '23.00'*/
+      $s5 = "OSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s6 = "0winmm.dll" fullword ascii /* score: '23.00'*/
+      $s7 = "libOSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s8 = "xinput1_2.dll" fullword ascii /* score: '20.00'*/
+      $s9 = "AppPolicyGetProcessTerminationMethod" fullword ascii /* score: '20.00'*/
+      $s10 = "xinput1_1.dll" fullword ascii /* score: '20.00'*/
+   condition:
+      uint16(0) == 0x754e and filesize < 6000KB and
+      all of them
+}
+
+rule REIDENDetections_PenguinSwitcher {
+   strings:
+      $x1 = "C:\\Users\\temte\\source\\repos\\Penguin Switcher DLL\\x64\\Release\\Penguin Switcher DLL.pdb" fullword ascii /* score: '38.00'*/
+      $s2 = "VCRUNTIME140_1.dll" fullword ascii /* score: '23.00'*/
+      $s3 = "__CxxFrameHandler4" fullword ascii /* score: '7.00'*/
+      $s4 = "Configuracion de cordenadas" fullword ascii /* score: '7.00'*/
+      $s5 = "  Macros configurados" fullword ascii /* score: '7.00'*/
+      $s6 = "color e" fullword ascii /* score: '6.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 70KB and
+      1 of ($x*) and all of them
+}
+
+rule royalClicker {
+   strings:
+      $x1 = "C:\\Users\\Cool Epic\\Documents\\Visual Studio 2015\\Projects\\Clicker\\Debug\\Clicker.pdb" fullword ascii /* score: '33.00'*/
+      $s2 = "jitterpixels <amount> - Change rate at which it fake shakes your mouse " fullword ascii /* score: '17.00'*/
+      $s3 = "        <requestedExecutionLevel level='asInvoker' uiAccess='false' />" fullword ascii /* score: '15.00'*/
+      $s4 = "settogglekey - Set the key used to toggle the clicker on and off " fullword ascii /* score: '15.00'*/
+      $s5 = "sethidekey - Set the key used to hide or show the clicker from the taskbar " fullword ascii /* score: '15.00'*/
+      $s6 = "dropchance <chance> - Changes chance of when it'll drop CPS randomly " fullword ascii /* score: '14.00'*/
+      $s7 = "Commands: " fullword ascii /* score: '12.00'*/
+      $s8 = "maxcps <cps> - Sets the maximum clicks per second " fullword ascii /* score: '12.00'*/
+      $s9 = "debug - Toggles debug alerts on or off " fullword ascii /* score: '12.00'*/
+      $s10 = "onlyminecraft - Toggles the ability to make the clicker only click in Minecraft " fullword ascii /* score: '12.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 2000KB and
+      1 of ($x*) and all of them
+}
+
+rule VapeV4Strings {
+   strings:
+      $x1 = "Z:\\Oreans Projects\\SecureEngine\\extras\\Loader_AntiVirus\\Visual C\\HeuristicVC1\\x64\\Release\\DLLSampleVs2010.pdb" fullword ascii /* score: '33.00'*/
+      $s2 = "Win32: Failed to load user32.dll" fullword ascii /* score: '26.00'*/
+      $s3 = "On a per-widget basis we are occasionally clipping text CPU-side if it won't fit in its frame. Otherwise we are doing coarser cl" ascii /* score: '26.00'*/
+      $s4 = "WGL: Failed to load opengl32.dll" fullword ascii /* score: '23.00'*/
+      $s5 = "GLESv2.dll" fullword ascii /* score: '23.00'*/
+      $s6 = "Win32: Failed to load winmm.dll" fullword ascii /* score: '23.00'*/
+      $s7 = "OSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s8 = "0winmm.dll" fullword ascii /* score: '23.00'*/
+      $s9 = "libOSMesa.dll" fullword ascii /* score: '23.00'*/
+      $s10 = ".?AV?$clone_impl@U?$error_info_injector@Vservice_already_exists@asio@boost@@@exception_detail@boost@@@exception_detail@boost@@" fullword ascii /* score: '23.00'*/
+   condition:
+   pe.imphash() == "5e8dea00a28cc53df92def3a4e0a4bf9" or
+   uint16(0) == 0x754e and filesize < 16000KB and
+   1 of ($x*) and all of them
+}
+
+rule EntropyLegacyStrings {
+   strings:
+      $s1 = "      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' public" ascii /* score: '27.00'*/
+      $s2 = "      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' public" ascii /* score: '24.00'*/
+      $s3 = "3WINMM.dll" fullword ascii /* score: '23.00'*/
+      $s4 = "uWS2_32.dll" fullword ascii /* score: '17.00'*/
+      $s5 = "        <requestedExecutionLevel level='requireAdministrator' uiAccess='false' />" fullword ascii /* score: '11.00'*/
+      $s6 = "KeyToken='6595b64144ccf1df' language='*' />" fullword ascii /* score: '10.00'*/
+      $s7 = "$,4\"(764" fullword ascii /* score: '9.00'*/ /* hex encoded string 'Gd' */
+      $s8 = "Iv+$\\- -" fullword ascii /* score: '9.00'*/
+      $s9 = ":'2@'|\"d" fullword ascii /* score: '9.00'*/ /* hex encoded string '-' */
+      $s10 = "(:4c44 )~" fullword ascii /* score: '9.00'*/ /* hex encoded string 'LD' */
+   condition:
+	  pe.imphash() == "fd6430271f2f16986c253db21eeced18" or
+      uint16(0) == 0x754e and filesize < 15000KB and
+      all of them
+}
+
+rule SlinkyStrings {
+   strings:
+      $x5 = "github.com/slinkygg/loader/inject.Process.init.func2" fullword ascii /* score: '42.00'*/
+      $x6 = "github.com/slinkygg/loader/inject.Process.init" fullword ascii /* score: '42.00'*/
+      $x7 = "github.com/slinkygg/loader/inject.Process.Inject.func1" fullword ascii /* score: '42.00'*/
+      $x8 = "github.com/slinkygg/loader/inject.Process.loadLib" fullword ascii /* score: '42.00'*/
+      $x9 = "github.com/slinkygg/loader/inject.Process.findInitFunc" fullword ascii /* score: '42.00'*/
+      $x10 = "github.com/slinkygg/loader/inject.Process.init.func1" fullword ascii /* score: '42.00'*/
+   condition:
+      uint16(0) == 0x754e and filesize < 4000KB and
+      1 of ($x*)
+}
+
+rule KarmaBetaStrings {
+   strings:
+      $s1 = "SlaxWC.PMW" fullword ascii /* score: '10.00'*/
+      $s2 = "* [e|+ok" fullword ascii /* score: '9.00'*/
+      $s3 = ":6].\";a/^" fullword ascii /* score: '9.00'*/ /* hex encoded string 'j' */
+      $s4 = "* \\Jt," fullword ascii /* score: '9.00'*/
+      $s5 = "lOgt_nG" fullword ascii /* score: '9.00'*/
+      $s6 = "OgHM_irc" fullword ascii /* score: '9.00'*/
+      $s7 = "LCSPYI[USRh" fullword ascii /* score: '9.00'*/
+      $s8 = ">XgAx* L*" fullword ascii /* score: '8.00'*/
+      $s9 = "ImTe!." fullword ascii /* score: '8.00'*/
+      $s10 = "fkavzzr" fullword ascii /* score: '8.00'*/
+   condition:
+	  pe.imphash() == "d27a4683d473648900989104c803ec50" or 
+      uint16(0) == 0x754e and filesize < 19000KB and
+      all of them
+}
+
+rule LastActivityViewClicker {
+   strings:
+      $x1 = "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?><assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersio" ascii /* score: '33.00'*/
+      $s2 = "questedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\"><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /><" ascii /* score: '26.00'*/
+      $s3 = "private-player.exe" fullword wide /* score: '22.00'*/
+      $s4 = "<assemblyIdentity version=\"1.0.0.0\" name=\"MyApplication.app\" /><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\"><securi" ascii /* score: '14.00'*/
+      $s5 = "PrivatePlayer.Properties" fullword ascii /* score: '10.00'*/
+      $s6 = ".NET Framework 4.8" fullword ascii /* score: '10.00'*/
+      $s7 = ".NETFramework,Version=v4.8" fullword ascii /* score: '10.00'*/
+      $s8 = "& &6&?&b&" fullword ascii /* score: '9.00'*/ /* hex encoded string 'k' */
+      $s9 = "fefeffeef" ascii /* score: '8.00'*/
+      $s10 = "afefefeffefe" ascii /* score: '8.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 3000KB and
+      1 of ($x*) and all of them
+}
+
+rule Sapphire_LITE {
+   strings:
+      $x1 = "costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture" ascii /* score: '44.00'*/
+      $x2 = "costura.guna.ui2.dll.compressed|2.0.0.3|Guna.UI2, Version=2.0.0.3, Culture=neutral, PublicKeyToken=ad275b4be6718d4b|Guna.UI2.dll" ascii /* score: '43.00'*/
+      $x3 = "costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF3" ascii /* score: '41.00'*/
+      $x4 = "costura.guna.ui2.dll.compressed|2.0.0.3|Guna.UI2, Version=2.0.0.3, Culture=neutral, PublicKeyToken=ad275b4be6718d4b|Guna.UI2.dll" ascii /* score: '41.00'*/
+      $x5 = "costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF3" ascii /* score: '39.00'*/
+      $x6 = "costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture" ascii /* score: '33.00'*/
+      $s7 = "=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760" ascii /* score: '30.00'*/
+      $s8 = "D:\\Sapphire\\Sapphire LITE - Copy\\Sapphire LITE\\obj\\x64\\Release\\Sapphire LITE.pdb" fullword ascii /* score: '29.00'*/
+      $s9 = "lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.R" ascii /* score: '27.00'*/
+      $s10 = "System.Security.Permissions.SecurityPermissionAttribute, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934" ascii /* score: '27.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 4000KB and
+      1 of ($x*) and all of them
+}
+
+rule storm_aimassist {
+   strings:
+      $x1 = "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?><assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersio" ascii /* score: '33.00'*/
+      $s2 = "questedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\"><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /><" ascii /* score: '26.00'*/
+      $s3 = "StormAimAssist.exe" fullword wide /* score: '22.00'*/
+      $s4 = "<assemblyIdentity version=\"1.0.0.0\" name=\"MyApplication.app\" /><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\"><securi" ascii /* score: '14.00'*/
+      $s5 = "InjectorLib" fullword ascii /* score: '14.00'*/
+      $s6 = "cracked by youtube.com/@BodyAlhoha" fullword wide /* score: '14.00'*/
+      $s7 = ".NET Framework 4.8" fullword ascii /* score: '10.00'*/
+      $s8 = ".NETFramework,Version=v4.8" fullword ascii /* score: '10.00'*/
+      $s9 = "GetDiskId" fullword ascii /* score: '9.00'*/
+      $s10 = "afefefeffe" ascii /* score: '8.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 3000KB and
+      1 of ($x*) and all of them
+}
+
+rule storm_clicker {
+   strings:
+      $x1 = "<?xml version=\"1.0\" encoding=\"utf-8\"?><assembly manifestVersion=\"1.0\" xmlns=\"urn:schemas-microsoft-com:asm.v1\"><assembly" ascii /* score: '33.00'*/
+      $s2 = " xmlns=\"urn:schemas-microsoft-com:asm.v3\"><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /></requestedPrivile" ascii /* score: '26.00'*/
+      $s3 = "StormClicker.exe" fullword wide /* score: '22.00'*/
+      $s4 = " version=\"1.0.0.0\" name=\"MyApplication.app\" /><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\"><security><requestedPriv" ascii /* score: '17.00'*/
+      $s5 = "InjectorLib" fullword ascii /* score: '14.00'*/
+      $s6 = "cracked by youtube.com/@BodyAlhoha" fullword wide /* score: '14.00'*/
+      $s7 = ".NET Framework 4.8" fullword ascii /* score: '10.00'*/
+      $s8 = ".NETFramework,Version=v4.8" fullword ascii /* score: '10.00'*/
+      $s9 = "GetDiskId" fullword ascii /* score: '9.00'*/
+      $s10 = "fefeffeef" ascii /* score: '8.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 15000KB and
+      1 of ($x*) and all of them
+}
+
+rule DripliteStrings {
+   strings:
+      $s1 = "5444444444" ascii /* reversed goodware string '4444444445' */ /* score: '27.00'*/ /* hex encoded string 'TDDDD' */
+      $s2 = "xyyyyyy" fullword ascii /* reversed goodware string 'yyyyyyx' */ /* score: '21.00'*/
+      $s3 = ".?AV?$TF_CryptoSystemBase@VPK_Encryptor@CryptoPP@@V?$TF_Base@VRandomizedTrapdoorFunction@CryptoPP@@VPK_EncryptionMessageEncoding" ascii /* score: '21.00'*/
+      $s4 = "AppPolicyGetProcessTerminationMethod" fullword ascii /* score: '20.00'*/
+      $s5 = " !!!!!" fullword ascii /* reversed goodware string '!!!!! ' */ /* score: '20.00'*/
+      $s6 = "$!!!!!!" fullword ascii /* reversed goodware string '!!!!!!$' */ /* score: '20.00'*/
+      $s7 = "ecccccc" ascii /* reversed goodware string 'cccccce' */ /* score: '18.00'*/
+      $s8 = "7444444444" ascii /* score: '17.00'*/ /* hex encoded string 'tDDDD' */
+      $s9 = "PUUUUUUUUU" fullword ascii /* reversed goodware string 'UUUUUUUUUP' */ /* score: '16.50'*/
+      $s10 = "QUUUUUU" fullword ascii /* reversed goodware string 'UUUUUUQ' */ /* score: '16.50'*/
+   condition:
+	  pe.imphash() == "d1c1dbbd3f23a12ffe26914c72391cde" or
+      uint16(0) == 0x754e and 
+      all of them
+}
+
+rule EntropyStrings {
+   strings:
+      $s1 = "        <requestedExecutionLevel level=\"requireAdministrator\" uiAccess=\"false\"></requestedExecutionLevel>" fullword ascii /* score: '11.00'*/
+      $s2 = "c:\\min" fullword ascii /* score: '10.00'*/
+      $s3 = "!!!- 9[P" fullword ascii /* score: '10.00'*/
+      $s4 = "!!!- 9" fullword ascii /* score: '10.00'*/
+      $s5 = "|3^\\\\d@#" fullword ascii /* score: '9.00'*/ /* hex encoded string '=' */
+      $s6 = "T@Aq+ -P" fullword ascii /* score: '9.00'*/
+      $s7 = "+ -\\\\7v" fullword ascii /* score: '9.00'*/
+      $s8 = "* =8$o" fullword ascii /* score: '9.00'*/
+      $s9 = "* (\"}%:" fullword ascii /* score: '9.00'*/
+      $s10 = "* vV'8U" fullword ascii /* score: '9.00'*/
+   condition:
+   pe.imphash() == "5f107e54a521060c04dbd90fd887adf7" or
+   uint16(0) == 0x754e and filesize < 15000KB and
+   all of them
+}
+
+rule VapeLiteStrings {
+   strings:
+      $s1 = "http://www.digicert.com/CPS0" fullword ascii /* score: '17.00'*/
+      $s2 = "2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0" fullword ascii /* score: '16.00'*/
+      $s3 = "5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C" fullword ascii /* score: '16.00'*/
+      $s4 = "http://ocsp.digicert.com0\\" fullword ascii /* score: '14.00'*/
+      $s5 = "Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>" fullword ascii /* score: '13.00'*/
+      $s6 = "Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0" fullword ascii /* score: '13.00'*/
+      $s7 = "Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S" fullword ascii /* score: '13.00'*/
+      $s8 = "c:\\min" fullword ascii /* score: '10.00'*/
+      $s9 = "JyFcfTP" fullword ascii /* score: '9.00'*/
+      $s10 = "* DkEP" fullword ascii /* score: '9.00'*/
+   condition:
+	  pe.imphash() == "6f3cf0531c2d9ec4a8f6ef25004860b9" or
+      uint16(0) == 0x754e and filesize < 13000KB and
+      all of them
+}
+
+rule REIDENDetections_berked {
+   strings:
+      $x1 = "costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture" ascii /* score: '44.00'*/
+      $x2 = "costura.siticone.desktop.ui.dll.compressed|2.1.1.0|Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591" ascii /* score: '41.00'*/
+      $x3 = "costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF3" ascii /* score: '41.00'*/
+      $x4 = "costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF3" ascii /* score: '39.00'*/
+      $x5 = "costura.siticone.desktop.ui.dll.compressed|2.1.1.0|Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591" ascii /* score: '39.00'*/
+      $x6 = "costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture" ascii /* score: '33.00'*/
+      $x7 = "C:\\Users\\ASUS\\source\\repos\\berked\\berked\\obj\\Debug\\berked.pdb" fullword ascii /* score: '33.00'*/
+      $s8 = "=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760" ascii /* score: '30.00'*/
+      $s9 = "lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.R" ascii /* score: '27.00'*/
+      $s10 = "costura.system.diagnostics.diagnosticsource.dll.compressed" fullword wide /* score: '25.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 3000KB and
+      1 of ($x*) and all of them
+}
+
+rule SwiftAutoclick {
+   strings:
+      $x1 = "costura.system.serviceprocess.servicecontroller.dll.compressed|6.0.0.0|System.ServiceProcess.ServiceController, Version=6.0.0.0," ascii /* score: '49.00'*/
+      $x2 = "costura.system.diagnostics.eventlog.dll.compressed|6.0.0.0|System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, Public" ascii /* score: '49.00'*/
+      $x3 = "costura.system.codedom.dll.compressed|6.0.0.0|System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|" ascii /* score: '49.00'*/
+      $x4 = "costura.system.codedom.dll.compressed|6.0.0.0|System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|" ascii /* score: '47.00'*/
+      $x5 = "costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture" ascii /* score: '44.00'*/
+      $x6 = "costura.system.security.principal.windows.dll.compressed|5.0.0.0|System.Security.Principal.Windows, Version=5.0.0.0, Culture=neu" ascii /* score: '44.00'*/
+      $x7 = "costura.guna.ui2.dll.compressed|2.0.0.1|Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b|Guna.UI2.dll" ascii /* score: '43.00'*/
+      $x8 = "costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF3" ascii /* score: '41.00'*/
+      $x9 = "costura.system.serviceprocess.servicecontroller.dll.compressed|6.0.0.0|System.ServiceProcess.ServiceController, Version=6.0.0.0," ascii /* score: '41.00'*/
+      $x10 = "costura.system.diagnostics.eventlog.dll.compressed|6.0.0.0|System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, Public" ascii /* score: '41.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 4000KB and
+      1 of ($x*)
+}
+
+rule NVIDIA_Contrainer {
+   strings:
+      $x1 = "C:\\Users\\Thomas\\Desktop\\Freelance\\Autoclicker\\obj\\x64\\Release\\Autoclicker.pdb" fullword ascii /* score: '33.00'*/
+      $s2 = "lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.R" ascii /* score: '27.00'*/
+      $s3 = "Autoclicker.exe" fullword ascii /* score: '22.00'*/
+      $s4 = "tre 'EnableWindowsFormsHighDpiAutoResizing' dans leur fichier app.config. -->" fullword ascii /* score: '16.00'*/
+      $s5 = "lectionner l'environnement le plus compatible. -->" fullword ascii /* score: '16.00'*/
+      $s6 = "ment requestedExecutionLevel d" fullword ascii /* score: '16.00'*/
+      $s7 = "ud requestedExecutionLevel par l'une des propositions suivantes." fullword ascii /* score: '16.00'*/
+      $s8 = "tes de dialogue communes de Windows (Windows XP et version ult" fullword ascii /* score: '15.00'*/
+      $s9 = "        <requestedExecutionLevel  level=\"asInvoker\" uiAccess=\"false\" />" fullword ascii /* score: '15.00'*/
+      $s10 = "rieure) -->" fullword ascii /* score: '13.00'*/
+   condition:
+      uint16(0) == 0x5a4d and filesize < 600KB and
+      1 of ($x*) and all of them
+}
+
+rule REIDENDetections_clicker {
+   strings:
+      $x1 = "endlocal & powershell -NoLogo -NoProfile -Command \"$_ = $input; Invoke-Expression $( '$input = $_; $_ = \\\"\\\"; $args = @( &{" ascii /* score: '42.00'*/
+      $x2 = "del /s /f /q C:\\WINDOWS\\Prefetch\\cmd.exe*" fullword ascii /* score: '39.00'*/
+      $s3 = "del /s /f /q C:\\WINDOWS\\Prefetch\\powershell.exe*" fullword ascii /* score: '30.00'*/
+      $s4 = "del /F /Q %userprofile%\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine" fullword ascii /* score: '30.00'*/
+      $s5 = "if /i \"%choose%\"==\"2\" start https://www.youtube.com/channel/UCEjzLj8pE40uePED115KTnQ & goto destruct" fullword ascii /* score: '29.00'*/
+      $s6 = "endlocal & powershell -NoLogo -NoProfile -Command \"$_ = $input; Invoke-Expression $( '$input = $_; $_ = \\\"\\\"; $args = @( &{" ascii /* score: '29.00'*/
+      $s7 = "del /s /q \"C:\\windows\\Minidump\\*.*\"" fullword ascii /* score: '28.00'*/
+      $s8 = "del /s /f /q C:\\windows\\Minidump\\" fullword ascii /* score: '28.00'*/
+      $s9 = "s } %POWERSHELL_BAT_ARGS% );' + [String]::Join( [char]10, $( Get-Content \\\"%~f0\\\" ) ) )\"" fullword ascii /* score: '27.00'*/
+      $s10 = "C:\\Windows\\system32>fsutil usn deletejournal /n d:" fullword ascii /* score: '26.00'*/
+   condition:
+      uint16(0) == 0xbbef and filesize < 100KB and
+      1 of ($x*) and all of them
+}
+
+rule Coonclicker {
+   strings:
+      $s1 = "de/sogomn/rat/packet/ExecuteFilePacket.classPK" fullword ascii /* score: '19.00'*/
+      $s2 = "de/sogomn/rat/packet/ExecuteFilePacket.class" fullword ascii /* score: '19.00'*/
+      $s3 = "de/sogomn/rat/packet/CommandPacket.class" fullword ascii /* score: '13.00'*/
+      $s4 = "de/sogomn/rat/packet/CommandPacket.classPK" fullword ascii /* score: '13.00'*/
+      $s5 = "de/sogomn/rat/packet/DownloadFilePacket.class" fullword ascii /* score: '11.00'*/
+      $s6 = "de/sogomn/rat/packet/DownloadFilePacket.classPK" fullword ascii /* score: '11.00'*/
+      $s7 = "de/sogomn/rat/packet/DownloadUrlPacket.classPK" fullword ascii /* score: '11.00'*/
+      $s8 = "de/sogomn/rat/packet/DownloadUrlPacket$DesktopFile.class" fullword ascii /* score: '11.00'*/
+      $s9 = "de/sogomn/rat/packet/DownloadUrlPacket$DesktopFile.classPK" fullword ascii /* score: '11.00'*/
+      $s10 = "de/sogomn/rat/packet/DownloadUrlPacket.class" fullword ascii /* score: '11.00'*/
+   condition:
+      uint16(0) == 0x4b50 and filesize < 700KB and
+      all of them
+}
+
+rule PEPE_CLICKER {
+   strings:
+      $s1 = "com/sun/jna/platform/win32/WinNT$SYSTEM_LOGICAL_PROCESSOR_INFORMATION$AnonymousUnionPayload.classPK" fullword ascii /* score: '23.00'*/
+      $s2 = "com/sun/jna/w32ce-arm/jnidispatch.dll" fullword ascii /* score: '23.00'*/
+      $s3 = "com/sun/jna/platform/win32/WinNT$SYSTEM_LOGICAL_PROCESSOR_INFORMATION$AnonymousUnionPayload.class" fullword ascii /* score: '23.00'*/
+      $s4 = "com/sun/jna/win32-x86-64/jnidispatch.dll" fullword ascii /* score: '23.00'*/
+      $s5 = "com/sun/jna/win32-x86/jnidispatch.dll" fullword ascii /* score: '23.00'*/
+      $s6 = "org/jnativehook/lib/windows/x86/JNativeHook.dll" fullword ascii /* score: '20.00'*/
+      $s7 = "org/jnativehook/lib/windows/x86_64/JNativeHook.dll" fullword ascii /* score: '20.00'*/
+      $s8 = "com/sun/jna/platform/win32/COM/tlb/imp/TlbPropertyGet.templatePK" fullword ascii /* score: '16.00'*/
+      $s9 = "com/sun/jna/platform/win32/COM/tlb/imp/TlbPropertyGetStub.templatePK" fullword ascii /* score: '16.00'*/
+      $s10 = "com/sun/jna/win32-x86/jnidispatch.dllPK" fullword ascii /* score: '16.00'*/
+   condition:
+      uint16(0) == 0x4b50 and filesize < 7000KB and
+      all of them
+}
+
+rule KarmaStrings {
+   strings:
+      $s1 = "V+\\%s%" fullword ascii /* score: '10.50'*/
+      $s2 = "zYbXc:\\" fullword ascii /* score: '10.00'*/
+      $s3 = "* m%dDK" fullword ascii /* score: '9.00'*/
+      $s4 = "%nUXqi%," fullword ascii /* score: '8.00'*/
+      $s5 = "Logmld" fullword ascii /* score: '8.00'*/
+      $s6 = "quhpdce" fullword ascii /* score: '8.00'*/
+      $s7 = "@%I%Z5" fullword ascii /* score: '8.00'*/
+      $s8 = "q:\\al:" fullword ascii /* score: '7.00'*/
+      $s9 = " l%D:\\R" fullword ascii /* score: '7.00'*/
+      $s10 = "SX:\\[6" fullword ascii /* score: '7.00'*/
+   condition:
+      pe.imphash() == "d27a4683d473648900989104c803ec50" or
+      uint16(0) == 0x754e and filesize < 19000KB and
+      all of them
+}
+          

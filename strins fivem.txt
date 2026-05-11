@@ -1,0 +1,884 @@
+                //defender
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "dControl.exe", "Defender Desativado 1");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Defender Control", "Defender Desativado 2");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "imdisk0", "ImDisk Found");
+
+                //susano
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "cfg.latest", "Possivel Susano");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "favorites.cfg", "Possivel Susano");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZltWMtLL5xBgZ2M", "Possivel Susano");
+
+                //skript
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "USBDeview", "Skript Found USBDeview");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "USBDeview.dll", "Skript DLL Found USBDeview");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "9m0Ixhet", "Skript Config Found");
+
+                //gosth
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "AppCrash_notepad.exe", "Possiveel Gosth (notepadcrash)");
+
+                //project
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ReSetup.exe", "Project ReSetup Download");
+
+                //Menus Genericos e afins
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "basic.asi", "MNL DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "nvidia.dll", "Monkeyware DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "OZIWAREPUBLIC.dll", "Oziware DLL Client [Downloaded ]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Luas_menu_free.zip", "Pack Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "parazetamol-crack", "Parazetamol Cracked [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "PozeRP.lua", "PozeRP Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "projectloader.exe", "Project Loader [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "projectloader.zip", "Project Loader [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "WeedCord.dll", "Project Weed DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "YX.FREE", "ProjectYX [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "RaffattMenuV2.dll", "RaffatMenu DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "RedEngine.dll", "Red Engine DLL Cracked [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "RenatoGarciaMenu.lua", "Renato Garcia Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "renovamenuattbeta_1.lua", "Renova Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "renovamenucripatt.lua", "Renova Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "free_fivem_cheat.dll", "ASpaceYX DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Tapatio.lua", "Tapatio Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "TapatioV24.5.lua", "Tapatio Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "TapatioV24.51.lua", "Tapatio Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "tikimenu.lua", "Tiki Menu Lua [Downloaded] Severe");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "tiki_menu.lua", "Tiki Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "vitormanu.lua", "Vitor Menu Lua [Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "VietnaMenuv2.lua", "Vietna Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "WinApi99.dll", "Weavy DLL Client [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZephyrMenu.lua", "Zephyr Menu Lua [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "sensy.bat", "Generic Bypass bat [Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "NEM_DEUS_PEGA.bat", "AGeneric Bypass bat[Downloaded]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "bek.bat", "AGeneric Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Bypass_Ghost_Cleaner.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "senhas.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "D3D10.dll", "d3d10, Ver em plugins o inject");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "a8a953c01e2d3139.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Win.zip.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "dollynscott.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ghost.bat_1.bat", "Generic Bypass bat Downloaded");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "SpacialoBACKUP.bat", "Generic Bypass bat Downloaded in Avast Browser");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "SconzaFps.bat", "Generic Bypass bat Downloaded in Avast Browser");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "1_tiro_by_cz.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "add_weapon_pistol.50.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ai.rar", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ai.zip", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "CR-fastRun.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "damageboost-1.5X-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "damageboost-10.0X-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeAmbulance.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeBmx_.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeTaxi.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "fastladder-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "FAST_STRAFE_BY_OSTEN_1.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "FAST_STRAFE_BY_OSTEN_1.rar", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "handling.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "HardAmmo-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "infinitestaminafastreload.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "IR.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "maxrange.rar", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "municao_infinita.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "norecoil-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "quickenter.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "quickEnter-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "rage.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Remove_Roll.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "stamina-DDW.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "varartirobybruxo.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Varartirobyfrz.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Versao_Nova_Citizen_1_tiro_by_frz.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "WeaponVehicles.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "youngtheuz_skills.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-bulletPenetration.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-damageBoost_1.5X.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-damageBoost_10X.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-increasedRange.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-infiniteAmmo.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-stamina.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-softAim.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-softAim.rar", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-weaponModifier.rpf", "Suspicious download of Modified RPF");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "pedaccuracy.meta", "Suspicious download of Modified META");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "loadouts.meta", "Suspicious download of Modified META");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "loader.data", "Cutiehook Config in PC");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "password_is_eulen.rar", "Eulen RAR in PC [password_is_eulen.rar]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "abc.abc", "Gosth File Detect");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "loader.vmp.exe", "Monster EXE in PC [loader.vmp.exe]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "senha_monster.rar", "Monster RAR in PC [senha_monster.rar]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "p5m_free.ini", "Project Loader Config Detected");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "settings.cock", "RedEngine Settings");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "public.zip", "Red Engine ZIP in PC [Public.zip]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "debug_logs", "Skript Archive Login in PC [debug_logs]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "quickenter.rpf", "Suspicious Modified RPF in PC [quickenter.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "municao_infinita.rpf", "Suspicious Modified RPF in PC [municao_infinita.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "1_tiro_by_cz.rpf", "Suspicious Modified RPF in PC [1_tiro_by_cz.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "stamina-DDW.rpf", "Suspicious Modified RPF in PC [stamina-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "norecoil-DDW.rpf", "Suspicious Modified RPF in PC [norecoil-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "fastladder-DDW.rpf", "Suspicious Modified RPF in PC [fastladder-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "FAST_STRAFE_BY_OSTEN_1.rpf", "Suspicious Modified RPF in PC [FAST_STRAFE_BY_OSTEN_1.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "FAST_STRAFE_BY_OSTEN_1.rar", "Suspicious Modified RPF in PC [FAST_STRAFE_BY_OSTEN_1.rar]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeAmbulance.rpf", "Suspicious Modified RPF in PC [DopeAmbulance.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeTaxi.rpf", "Suspicious Modified RPF in PC [DopeTaxi.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "DopeBmx_.rpf", "Suspicious Modified RPF in PC [DopeBmx_.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "maxrange.rar", "Suspicious Modified RPF in PC [maxrange.rar]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "rage.rpf", "Suspicious Modified RPF in PC [rage.rpf] Warning");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "WeaponVehicles.rpf", "Suspicious Modified RPF in PC [WeaponVehicles.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "quickEnter-DDW.rpf", "Suspicious Modified RPF in PC [quickEnter-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "HardAmmo-DDW.rpf", "Suspicious Modified RPF in PC [HardAmmo-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "damageboost-10.0X-DDW.rpf", "Suspicious Modified RPF in PC [damageboost-10.0X-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "damageboost-1.5X-DDW.rpf", "Suspicious Modified RPF in PC [damageboost-1.5X-DDW.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Versao_Nova_Citizen_1_tiro_by_frz.rpf", "Suspicious Modified RPF in PC [Versao_Nova_Citizen_1_tiro_by_frz.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "NO_RECOIL_byitalo22.rpf", "Suspicious Modified RPF in PC [NO_RECOIL_byitalo22.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-softAim.rpf", "Suspicious Modified RPF in PC [ZC-softAim.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "youngtheuz_skills.rpf", "Suspicious Modified RPF in PC [youngtheuz_skills.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Remove_Roll.rpf", "Suspicious Modified RPF in PC [Remove_Roll.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "varartirobybruxo.rpf", "Suspicious Modified RPF in PC [varartirobybruxo.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Varartirobyfrz.rpf", "Suspicious Modified RPF in PC [Varartirobyfrz.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "CR-fastRun.rpf", "Suspicious Modified RPF in PC [CR-fastRun.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "infinitestaminafastreload.rpf", "Suspicious Modified RPF in PC [infinitestaminafastreload.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "IR.rpf", "Suspicious Modified RPF in PC [IR.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-infiniteAmmo.rpf", "Suspicious Modified RPF in PC [ZC-infiniteAmmo.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-weaponModifier.rpf", "Suspicious Modified RPF in PC [ZC-weaponModifier.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-bulletPenetration.rpf", "Suspicious Modified RPF in PC [ZC-bulletPenetration.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-increasedRange.rpf", "Suspicious Modified RPF in PC [ZC-increasedRange.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-damageBoost_1.5X.rpf", "Suspicious Modified RPF in PC [ZC-damageBoost_1.5X.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-damageBoost_10X.rpf", "Suspicious Modified RPF in PC [ZC-damageBoost_10X.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "handlingModifier.rpf", "Suspicious Modified RPF in PC [handlingModifier.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "ZC-stamina.rpf", "Suspicious Modified RPF in PC [ZC-stamina.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "handling.rpf", "Suspicious Modified RPF in PC [handling.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "BP.rpf", "Suspicious Modified RPF in PC [BP.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "add_weapon_pistol.50.rpf", "Suspicious Modified RPF in PC [add_weapon_pistol.50.rpf]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "pedaccuracy.meta", "Suspicious Modified META in PC [pedaccuracy.meta]");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "x64a.rpf", "Possivel X64 Silent");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "imgui.ini", "Possivel ImGui Found");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "Component.dll", "Project Component.dll");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "A-R.exe", "Asgard Reborn A-R.EXE");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "bypass.exe", "Bypass Generic Asgard bypass.exe");
+
+                // Disk Parts
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///A", "Disk A Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///B", "Disk B Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///F", "Disk F Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///G", "Disk G Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///H", "Disk H Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///I", "Disk I Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///J", "Disk J Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///K", "Disk K Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///L", "Disk L Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///M", "Disk M Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///N", "Disk N Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///O", "Disk O Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///P", "Disk P Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///Q", "Disk Q Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///R", "Disk R Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///S", "Disk S Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///T", "Disk T Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///U", "Disk U Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///V", "Disk V Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///W", "Disk W Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///X", "Disk X Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///Y", "Disk Y Detectado");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "file:///Z", "Disk Z Detectado");
+            }
+            Dictionary<string, string> nomesPersonalizadosLsass = new Dictionary<string, string>();
+            {
+                //skript
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "skript.gg", "Skript.gg Lsass(1)");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "skript.gg0", "Skript.gg0 Lsass(2)");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "http://ocsp.pki.goog/s/gts1p5/ghf_lTR8_n801", "skript OCSP 1");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "http://ocsp.pki.goog/s/gts1p5/ghf_lTR8_n8", "skript OCSP 2");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "20231219164333Z0t0r0J0", "skript numbers");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "s.k.r.i.p.t...g.g.", "skript unicode");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "vps-32704700.vps.ovh.ca", "Skript VPS");
+                //gosth
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "pedrin.cc", "Gosth pedrin.cc");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "three.pedrin", "Gosth three.pedrin");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "pedrin.ovh", "Gosth Pedrin.ovh");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "pedrin.cc0", "Gosth Pedrin.cc");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "pedrin.cc0!", "Gosth Pedrin.cc0");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "gosth.gg", "Gosth gosth.gg");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "api-three.pedrin.cc", "Gosth - api-three.pedrin.cc");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "ovh-01.pedrin.cc", "Gosth - ovh-01");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "131.196.198.50", "gosth IP");
+                //redengine
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "redengine.eu", "Red Engine Lsass");
+                //project
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "api.projectcheats.com", "Project API Acessed");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "projectcheats.com", "Project Lsass Acessed");
+                //stopped
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "stoppedbypass", "stopped bypass acessed");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "stoppedbypass.com", "stopped bypass acessed");
+
+                //tracks e monesy
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "api.monesy.dev", "Monesy API 1");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "monesy.dev", "Monesy API 2");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "api.idandev.xyz", "Tracks API Acessed 1");
+                AdicionarItemAoDicionario(nomesPersonalizadosLsass, "idandev.xyz", "Tracks API Acessed 2");
+
+            }
+
+                Dictionary<string, string> nomesPersonalizadosDps = new Dictionary<string, string>();
+                {
+                    AdicionarItemAoDicionario(nomesPersonalizadosDps, "!2023/01/22:01:40:53!0!", "Gosth DPS");
+                    AdicionarItemAoDicionario(nomesPersonalizadosDps, "!2023/04/12:19:24:40!", "Monesy Bypass DPS");
+                    AdicionarItemAoDicionario(nomesPersonalizadosDps, "!2099/01/19:13:33:15!36ac9!", "Bypass generico");
+                    AdicionarItemAoDicionario(nomesPersonalizadosDps, "2023/06/04:19:28:48", "TZ Project [DPS]");
+            }
+                Dictionary<string, string> nomesPersonalizadosDnscache = new Dictionary<string, string>();
+                {
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "skript.gg", "Skript.gg Dnscache (1)");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "skript.gg0", "Skript.gg0 Dnscache (2)");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "http://ocsp.pki.goog/s/gts1p5/ghf_lTR8_n801", "skript OCSP 1 Dnscache");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "http://ocsp.pki.goog/s/gts1p5/ghf_lTR8_n8", "skript OCSP 2 Dnscache");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "20231219164333Z0t0r0J0", "skript numbers Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "s.k.r.i.p.t...g.g.", "skript unicode Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "vps-32704700.vps.ovh.ca", "Skript VPS Dnscache ");
+                //gosth
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "pedrin.cc", "Gosth pedrin.cc Dnscache");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "three.pedrin", "Gosth three.pedrin Dnscache");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "pedrin.ovh", "Gosth Pedrin.ovh Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "pedrin.cc0", "Gosth Pedrin.cc Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "pedrin.cc0!", "Gosth Pedrin.cc0 Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "gosth.gg", "Gosth gosth.gg Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "api-three.pedrin.cc", "Gosth - api-three.pedrin.cc Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "ovh-01.pedrin.cc", "Gosth - ovh-01 Dnscache ");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "131.196.198.50", "gosth IP Dnscache ");
+                //redengine
+
+                //project
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "api.projectcheats.com", "Project API Dnscache Acessed");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "projectcheats.com", "Project Dnscache Acessed");
+
+                //tracks e monesy
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "api.monesy.dev", "Monesy API Dnscache  1");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "monesy.dev", "Monesy API Dnscache  2");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "api.idandev.xyz", "Tracks API Dnscache  Acessed 1");
+                AdicionarItemAoDicionario(nomesPersonalizadosDnscache, "idandev.xyz", "Tracks API Dnscache  Acessed 2");
+            }
+                Dictionary<string, string> nomesPersonalizadosSysmain = new Dictionary<string, string>();
+                {
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "TASKKILL.EXE", "Taskkill Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "CMD.EXE", "CMD Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "REG.EXE", "REGEDIT Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "DISPART.EXE", "DISKPART Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "FSUTIL.EXE", "FSUTIL Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "", "Taskkill Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "TASKKILL.EXE", "Taskkill Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "TASKKILL.EXE", "Taskkill Executed");
+                AdicionarItemAoDicionario(nomesPersonalizadosSysmain, "TASKKILL.EXE", "Taskkill Executed");
+            }
+                Dictionary<string, string> nomesPersonalizadosDiagtrack = new Dictionary<string, string>();
+                {
+
+                }
+                Dictionary<string, string> nomesPersonalizadosPcasvc = new Dictionary<string, string>();
+                {
+
+                }
+                Dictionary<string, string> nomesPersonalizadosHistorico = new Dictionary<string, string>();
+                {
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "stoppedbypass.com/products", "stopped bypass acessed");
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "gosth.gg", "Gosth Site acessado");
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "skript.gg/favicon.png", "Skript Favicon Baixado");
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "skript.gg", "Skript Site Acessado");
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "cdn.gosth.ltd", "Gosth Instalado");
+                    AdicionarItemAoDicionario(nomesPersonalizadosHistorico, "projectdow.com/data/bypass/bypass", "Project Bypass Acessed");
+                AdicionarItemAoDicionario(nomesPersonalizadosExplorer, "redengine.eu/clientarea/download?", "Red Engine [Downloaded]");
+            
+            }
+
+            List<string> stringsDesejadasExplorer = new List<string>
+            {
+
+            //defender
+            "dControl.exe",
+            "Defender Control",
+            "imdisk0",
+
+            //project
+            "pc5m.ini",
+            "PC5M.ini",
+            "Public.zip",
+            //skript
+            "USBDeview",
+            "USBDeview.dll",
+            "AppCrash_notepad.exe",
+
+            //gosth
+            "launcher.exe",
+
+            //hydra
+            "visior.exe",
+            
+
+             //menus aleatorios
+             "pc5m.ini",
+             "Public.zip",
+             "basic.asi",
+            "nvidia.dll",
+            "OZIWAREPUBLIC.dll",
+            "Luas_menu_free.zip",
+            "parazetamol-crack",
+            "PozeRP.lua",
+            "projectloader.exe",
+            "WeedCord.dll",
+            "YX.FREE",
+            "RaffattMenuV2.dll",
+            "RenatoGarciaMenu.lua",
+            "renovamenuattbeta_1.lua",
+            "renovamenucripatt.lua",
+            "free_fivem_cheat.dll",
+            "Tapatio.lua",
+            "TapatioV24.5.lua",
+             "TapatioV24.51.lua",
+            "tikimenu.lua",
+            "tiki_menu.lua",
+            "vitormanu.lua",
+            "VietnaMenuv2.lua",
+            "WinApi99.dll",
+            "ZephyrMenu.lua",
+            "sensy.bat",
+            "NEM_DEUS_PEGA.bat",
+            "bek.bat",
+            "Bypass_Ghost_Cleaner.bat",
+            "senhas.bat",
+            "a8a953c01e2d3139.bat",
+            "Win.zip.bat",
+            "dollynscott.bat",
+            "ghost.bat_1.bat",
+            "SpacialoBACKUP.bat",
+            "SconzaFps.bat",
+            "1_tiro_by_cz.rpf",
+            "add_weapon_pistol.50.rpf",
+            "ai.rar",
+            "ai.zip",
+            "CR-fastRun.rpf",
+            "damageboost-1.5X-DDW.rpf",
+            "damageboost-10.0X-DDW.rpf",
+            "DopeAmbulance.rpf",
+            "DopeBmx_.rpf",
+            "DopeTaxi.rpf",
+            "fastladder-DDW.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rar",
+            "handling.rpf",
+            "HardAmmo-DDW.rpf",
+            "infinitestaminafastreload.rpf",
+            "IR.rpf",
+            "maxrange.rar",
+            "municao_infinita.rpf",
+            "norecoil-DDW.rpf",
+            "quickenter.rpf",
+            "quickEnter-DDW.rpf",
+            "rage.rpf",
+            "Remove_Roll.rpf",
+            "stamina-DDW.rpf",
+            "varartirobybruxo.rpf",
+            "Varartirobyfrz.rpf",
+            "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+            "WeaponVehicles.rpf",
+            "youngtheuz_skills.rpf",
+            "ZC-bulletPenetration.rpf",
+            "ZC-damageBoost_1.5X.rpf",
+            "ZC-damageBoost_10X.rpf",
+            "ZC-increasedRange.rpf",
+            "ZC-infiniteAmmo.rpf",
+            "ZC-stamina.rpf",
+            "ZC-softAim.rpf",
+            "ZC-softAim.rar",
+            "ZC-weaponModifier.rpf",
+            "pedaccuracy.meta",
+            "loadouts.meta",
+            "loader.data",
+            "password_is_eulen.rar",
+            "abc.abc",
+            "loader.vmp.exe",
+            "senha_monster.rar",
+            "p5m_free.ini",
+            "settings.cock",
+            "public.zip",
+            "debug_logs",
+            "quickenter.rpf",
+            "municao_infinita.rpf",
+            "1_tiro_by_cz.rpf",
+            "stamina-DDW.rpf",
+            "norecoil-DDW.rpf",
+            "fastladder-DDW.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rar",
+            "DopeAmbulance.rpf",
+            "DopeTaxi.rpf",
+            "DopeBmx_.rpf",
+            "maxrange.rar",
+            "rage.rpf",
+            "WeaponVehicles.rpf",
+            "quickEnter-DDW.rpf",
+            "HardAmmo-DDW.rpf",
+            "damageboost-10.0X-DDW.rpf",
+            "damageboost-1.5X-DDW.rpf",
+            "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+            "NO_RECOIL_byitalo22.rpf",
+            "ZC-softAim.rpf",
+            "youngtheuz_skills.rpf",
+            "Remove_Roll.rpf",
+            "varartirobybruxo.rpf",
+            "Varartirobyfrz.rpf",
+            "CR-fastRun.rpf",
+            "infinitestaminafastreload.rpf",
+            "IR.rpf",
+            "ZC-infiniteAmmo.rpf",
+            "ZC-weaponModifier.rpf",
+            "ZC-bulletPenetration.rpf",
+            "ZC-increasedRange.rpf",
+            "ZC-damageBoost_1.5X.rpf",
+            "ZC-damageBoost_10X.rpf",
+            "handlingModifier.rpf",
+            "ZC-stamina.rpf",
+            "handling.rpf",
+            "BP.rpf",
+            "add_weapon_pistol.50.rpf",
+            "pedaccuracy.meta",
+            "x64a.rpf",
+            "imgui.ini",
+            "file:///A",
+            "file:///B",
+            "file:///F",
+            "file:///G",
+            "file:///H",
+            "file:///I",
+            "file:///J",
+            "file:///K",
+            "file:///L",
+            "file:///M",
+            "file:///N",
+            "file:///O",
+            "file:///P",
+            "file:///Q",
+            "file:///R",
+            "file:///S",
+            "file:///T",
+            "file:///U",
+            "file:///V",
+            "file:///W",
+            "file:///X",
+            "file:///Y",
+            "file:///Z",
+
+
+            };
+            List<string> stringsDesejadasLsass = new List<string>
+            {
+            "skript.gg",
+            "skript.gg0",
+            "api.projectcheats.com",
+            "keyauth.win",
+            "https://pki.goog/repository/0",
+             //gosth
+            "pedrin.cc",
+            "three.pedrin.cc",
+            "pedrin.cc",
+            "pedrin.ovh",
+            "pedrin.cc0!",
+            "gosth.gg",
+            "api-three.pedrin.cc",
+            "ovh-01.pedrin.cc",
+            "api-three.pedrin.cc",
+            "131.196.198.50",
+            "50301",
+
+            //bypass monesy - tracks
+             "api.monesy.dev",
+             "monesy.dev",
+             "api.idandev.xyz",
+             "idandev.xyz", 
+
+             //redengine
+             "redengine.eu",
+
+             //stopped
+             "stoppedbypass.com",
+             "stoppedbypass",
+
+             //hydra
+             "visior.exe",
+
+             //degeo
+             "disocord.exe",
+
+
+
+            };
+            List<string> stringsDesejadasDps = new List<string>
+            {
+            "!2022/01/28:16:21:07!8561b0!",
+            "!2023/01/22:01:40:53!0!",
+            "!2023/04/12:19:24:40!",
+            "!2099/01/19:13:33:15!36ac9!",
+            "2023/06/04:19:28:48",
+
+
+            };
+            List<string> stringsDesejadasDiagtrack = new List<string>
+            {
+            //defender
+            "dControl.exe",
+            "Defender Control",
+            "imdisk0",
+
+            //project
+            "pc5m.ini",
+            "PC5M.ini",
+            "Public.zip",
+            //skript
+            "USBDeview",
+            "USBDeview.dll",
+            "9m0Ixhet",
+            "AppCrash_notepad.exe",
+            //gosth
+            "50301",
+            "launcher.exe",
+            ".exe",
+
+             //menus aleatorios
+             "pc5m.ini",
+             "Public.zip",
+             "basic.asi",
+            "nvidia.dll",
+            "OZIWAREPUBLIC.dll",
+            "Luas_menu_free.zip",
+            "parazetamol-crack",
+            "PozeRP.lua",
+            "projectloader.exe",
+            "WeedCord.dll",
+            "YX.FREE",
+            "RaffattMenuV2.dll",
+            "RenatoGarciaMenu.lua",
+            "renovamenuattbeta_1.lua",
+            "renovamenucripatt.lua",
+            "free_fivem_cheat.dll",
+            "Tapatio.lua",
+            "TapatioV24.5.lua",
+             "TapatioV24.51.lua",
+            "tikimenu.lua",
+            "tiki_menu.lua",
+            "vitormanu.lua",
+            "VietnaMenuv2.lua",
+            "WinApi99.dll",
+            "ZephyrMenu.lua",
+            "sensy.bat",
+            "NEM_DEUS_PEGA.bat",
+            "bek.bat",
+            "Bypass_Ghost_Cleaner.bat",
+            "senhas.bat",
+            "a8a953c01e2d3139.bat",
+            "Win.zip.bat",
+            "dollynscott.bat",
+            "ghost.bat_1.bat",
+            "SpacialoBACKUP.bat",
+            "SconzaFps.bat",
+            "1_tiro_by_cz.rpf",
+            "add_weapon_pistol.50.rpf",
+            "ai.rar",
+            "ai.zip",
+            "CR-fastRun.rpf",
+            "damageboost-1.5X-DDW.rpf",
+            "damageboost-10.0X-DDW.rpf",
+            "DopeAmbulance.rpf",
+            "DopeBmx_.rpf",
+            "DopeTaxi.rpf",
+            "fastladder-DDW.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rar",
+            "handling.rpf",
+            "HardAmmo-DDW.rpf",
+            "infinitestaminafastreload.rpf",
+            "IR.rpf",
+            "maxrange.rar",
+            "municao_infinita.rpf",
+            "norecoil-DDW.rpf",
+            "quickenter.rpf",
+            "quickEnter-DDW.rpf",
+            "rage.rpf",
+            "Remove_Roll.rpf",
+            "stamina-DDW.rpf",
+            "varartirobybruxo.rpf",
+            "Varartirobyfrz.rpf",
+            "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+            "WeaponVehicles.rpf",
+            "youngtheuz_skills.rpf",
+            "ZC-bulletPenetration.rpf",
+            "ZC-damageBoost_1.5X.rpf",
+            "ZC-damageBoost_10X.rpf",
+            "ZC-increasedRange.rpf",
+            "ZC-infiniteAmmo.rpf",
+            "ZC-stamina.rpf",
+            "ZC-softAim.rpf",
+            "ZC-softAim.rar",
+            "ZC-weaponModifier.rpf",
+            "pedaccuracy.meta",
+            "loadouts.meta",
+            "loader.data",
+            "password_is_eulen.rar",
+            "abc.abc",
+            "loader.vmp.exe",
+            "senha_monster.rar",
+            "p5m_free.ini",
+            "settings.cock",
+            "public.zip",
+            "debug_logs",
+            "quickenter.rpf",
+            "municao_infinita.rpf",
+            "1_tiro_by_cz.rpf",
+            "stamina-DDW.rpf",
+            "norecoil-DDW.rpf",
+            "fastladder-DDW.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rpf",
+            "FAST_STRAFE_BY_OSTEN_1.rar",
+            "DopeAmbulance.rpf",
+            "DopeTaxi.rpf",
+            "DopeBmx_.rpf",
+            "maxrange.rar",
+            "rage.rpf",
+            "WeaponVehicles.rpf",
+            "quickEnter-DDW.rpf",
+            "HardAmmo-DDW.rpf",
+            "damageboost-10.0X-DDW.rpf",
+            "damageboost-1.5X-DDW.rpf",
+            "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+            "NO_RECOIL_byitalo22.rpf",
+            "ZC-softAim.rpf",
+            "youngtheuz_skills.rpf",
+            "Remove_Roll.rpf",
+            "varartirobybruxo.rpf",
+            "Varartirobyfrz.rpf",
+            "CR-fastRun.rpf",
+            "infinitestaminafastreload.rpf",
+            "IR.rpf",
+            "ZC-infiniteAmmo.rpf",
+            "ZC-weaponModifier.rpf",
+            "ZC-bulletPenetration.rpf",
+            "ZC-increasedRange.rpf",
+            "ZC-damageBoost_1.5X.rpf",
+            "ZC-damageBoost_10X.rpf",
+            "handlingModifier.rpf",
+            "ZC-stamina.rpf",
+            "handling.rpf",
+            "BP.rpf",
+            "add_weapon_pistol.50.rpf",
+            "pedaccuracy.meta",
+            "x64a.rpf",
+            "imgui.ini",
+            //dps/diagtrack
+            "!2022/01/28:16:21:07!8561b0!",
+            "!2023/01/22:01:40:53!0!",
+            "!2023/04/12:19:24:40!",
+            "!2099/01/19:13:33:15!36ac9!",
+            "2023/06/04:19:28:48",
+            };
+            List<string> stringsDesejadasSysmain = new List<string>
+            {
+            "CMD.EXE",
+            "POWERSHELL.EXE",
+            "TASKKILL.EXE",
+            "DISKPART.EXE",
+            "NOTEPAD.EXE",
+            "ANYDESK.EXE",
+            "FSUTIL.EXE",
+            "REG.EXE",
+            "DEFRAG.EXE",
+            "AG.EXE",
+            "BYPASS.EXE",
+            "LAUNCHER.EXE",
+            "NOTEPAD.EXE",
+            ".DLL",
+
+            };
+            List<string> stringsDesejadasPcasvc = new List<string>
+            {
+                //defender
+                "dControl.exe",
+                "Defender Control",
+                "imdisk0",
+
+                //project
+                "pc5m.ini",
+                "PC5M.ini",
+                "Public.zip",
+                //skript
+                "USBDeview",
+                "USBDeview.dll",
+                "AppCrash_notepad.exe",
+                //gosth
+                "!0!",
+                "launcher.exe",
+                "0x2e1f000",
+                ".exe",
+               
+
+                 //menus aleatorios
+                 "pc5m.ini",
+                 "Public.zip",
+                 "basic.asi",
+                "nvidia.dll",
+                "OZIWAREPUBLIC.dll",
+                "Luas_menu_free.zip",
+                "parazetamol-crack",
+                "PozeRP.lua",
+                "projectloader.exe",
+                "WeedCord.dll",
+                "YX.FREE",
+                "RaffattMenuV2.dll",
+                "RenatoGarciaMenu.lua",
+                "renovamenuattbeta_1.lua",
+                "renovamenucripatt.lua",
+                "free_fivem_cheat.dll",
+                "Tapatio.lua",
+                "TapatioV24.5.lua",
+                 "TapatioV24.51.lua",
+                "tikimenu.lua",
+                "tiki_menu.lua",
+                "vitormanu.lua",
+                "VietnaMenuv2.lua",
+                "WinApi99.dll",
+                "ZephyrMenu.lua",
+                "sensy.bat",
+                "NEM_DEUS_PEGA.bat",
+                "bek.bat",
+                "Bypass_Ghost_Cleaner.bat",
+                "senhas.bat",
+                "a8a953c01e2d3139.bat",
+                "Win.zip.bat",
+                "dollynscott.bat",
+                "ghost.bat_1.bat",
+                "SpacialoBACKUP.bat",
+                "SconzaFps.bat",
+                "1_tiro_by_cz.rpf",
+                "add_weapon_pistol.50.rpf",
+                "ai.rar",
+                "ai.zip",
+                "CR-fastRun.rpf",
+                "damageboost-1.5X-DDW.rpf",
+                "damageboost-10.0X-DDW.rpf",
+                "DopeAmbulance.rpf",
+                "DopeBmx_.rpf",
+                "DopeTaxi.rpf",
+                "fastladder-DDW.rpf",
+                "FAST_STRAFE_BY_OSTEN_1.rpf",
+                "FAST_STRAFE_BY_OSTEN_1.rar",
+                "handling.rpf",
+                "HardAmmo-DDW.rpf",
+                "infinitestaminafastreload.rpf",
+                "IR.rpf",
+                "maxrange.rar",
+                "municao_infinita.rpf",
+                "norecoil-DDW.rpf",
+                "quickenter.rpf",
+                "quickEnter-DDW.rpf",
+                "rage.rpf",
+                "Remove_Roll.rpf",
+                "stamina-DDW.rpf",
+                "varartirobybruxo.rpf",
+                "Varartirobyfrz.rpf",
+                "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+                "WeaponVehicles.rpf",
+                "youngtheuz_skills.rpf",
+                "ZC-bulletPenetration.rpf",
+                "ZC-damageBoost_1.5X.rpf",
+                "ZC-damageBoost_10X.rpf",
+                "ZC-increasedRange.rpf",
+                "ZC-infiniteAmmo.rpf",
+                "ZC-stamina.rpf",
+                "ZC-softAim.rpf",
+                "ZC-softAim.rar",
+                "ZC-weaponModifier.rpf",
+                "pedaccuracy.meta",
+                "loadouts.meta",
+                "loader.data",
+                "password_is_eulen.rar",
+                "abc.abc",
+                "loader.vmp.exe",
+                "senha_monster.rar",
+                "p5m_free.ini",
+                "settings.cock",
+                "public.zip",
+                "debug_logs",
+                "quickenter.rpf",
+                "municao_infinita.rpf",
+                "1_tiro_by_cz.rpf",
+                "stamina-DDW.rpf",
+                "norecoil-DDW.rpf",
+                "fastladder-DDW.rpf",
+                "FAST_STRAFE_BY_OSTEN_1.rpf",
+                "FAST_STRAFE_BY_OSTEN_1.rar",
+                "DopeAmbulance.rpf",
+                "DopeTaxi.rpf",
+                "DopeBmx_.rpf",
+                "maxrange.rar",
+                "rage.rpf",
+                "WeaponVehicles.rpf",
+                "quickEnter-DDW.rpf",
+                "HardAmmo-DDW.rpf",
+                "damageboost-10.0X-DDW.rpf",
+                "damageboost-1.5X-DDW.rpf",
+                "Versao_Nova_Citizen_1_tiro_by_frz.rpf",
+                "NO_RECOIL_byitalo22.rpf",
+                "ZC-softAim.rpf",
+                "youngtheuz_skills.rpf",
+                "Remove_Roll.rpf",
+                "varartirobybruxo.rpf",
+                "Varartirobyfrz.rpf",
+                "CR-fastRun.rpf",
+                "infinitestaminafastreload.rpf",
+                "IR.rpf",
+                "ZC-infiniteAmmo.rpf",
+                "ZC-weaponModifier.rpf",
+                "ZC-bulletPenetration.rpf",
+                "ZC-increasedRange.rpf",
+                "ZC-damageBoost_1.5X.rpf",
+                "ZC-damageBoost_10X.rpf",
+                "handlingModifier.rpf",
+                "ZC-stamina.rpf",
+                "handling.rpf",
+                "BP.rpf",
+                "add_weapon_pistol.50.rpf",
+                "pedaccuracy.meta",
+                "x64a.rpf",
+                "imgui.ini",
+            };
+            List<string> stringsDesejadasDnscache = new List<string>
+            {    //skript
+                "skript.gg",
+                "skript.gg0",
+                "api.projectcheats.com",
+                "keyauth.win",
+                "https://pki.goog/repository/0",
+                 //gosth
+                "pedrin.cc",
+                "three.pedrin.cc",
+                "pedrin.cc",
+                "pedrin.ovh",
+                "pedrin.cc0!",
+                "gosth.gg",
+                "api-three.pedrin.cc",
+                "ovh-01.pedrin.cc",
+                "api-three.pedrin.cc",
+                "131.196.198.50",
+                "50301",
+
+                //bypass monesy - tracks
+                 "api.monesy.dev",
+                 "monesy.dev",
+                 "api.idandev.xyz",
+                 "idandev.xyz", 
+
+                 //redengine
+                 "redengine.eu",
+            };
+            List<string> stringsDesejadasHistorico = new List<string>
+            {
+            "projectcheats.com",
+            "gosth.gg",
+            "api.projectcheats.com",
+            "skript.gg",
+            "skript.gg/favicon.png",
+            "cdn.gosth.ltd",
+            "redengine.eu/clientarea/download?",
+            "stoppedbypass.com/products",

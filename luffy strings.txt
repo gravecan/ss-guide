@@ -1,0 +1,35 @@
+Generic : modules/combat, module/combat, modules/impl, module/impl, module/modules, modules/module, gettargetmargain, hitbox >>> expand, KillAura.class, Speed.class
+
+Skligga: net/skliggahack/module, restore pre 1.18.2 loading screen behavior
+BleachHack: org/bleachhack/, Makes you not swing your hand, UI not available on the main menu!
+Ghost Bleach: bleachhack_outline, UI not available on the main menu!
+Lattia: .lattia, com/lattia/mod/, chickenpanckakesinwaffle
+Wurst: net/wurstclient/util
+Wingclient: SelfDestruct.java, Triggerbot.java, gradient_frame, security.txt, Error retrieving HWID via PowerShell:
+Lumina: me/stormcph/lumina
+NoWeakAttack: assets/noweakattack/
+Coffe Client: coffee/client/helper
+Prestige: dev/zprestige/prestige, MixinLightmapTextureManager.class
+Surge Client: 032E02B4-0499-05D6-5A06-510700080009, gradient_frame
+Xyla: impl/xy_la, impl/xyla
+St-Api: st/mixin/KeyboardMixin
+Meteor Client: meteordevelopment/orbit/
+ThunderHack: thunder/hack
+NewLauncher: newlauncher >>> versions
+Catlean: Catlean
+Cracked Grim: ops/ec/kekma, abc/def/event/impl
+Doomsday Client (In Mods) : l.pngUT
+"Pojav Client": ie/skobelevs/gui/screen/
+Polar Client: modelfix/addons/addon/render,  (Ldev/lvstrng/polar/ARGONFz;Ldev/lvstrng/polar/ARGONFA<*>;I)V, TW91c2UgU2ltdWxhdGlvbg==
+Krypton Client: a/b/c/z, ^([A-Z0-9]{4}-){5}[A-Z0-9]{4}$
+Gardenia Client: kambing/gardenia
+Shoreline: shoreline/client
+Minced: free/minced
+Scrim Client: dev/nixoly/scrim, 1d1o4d4HVvAIeKJPVhZ6jCZ7ixV0MS
+Argon Client: dev/lvstrng/argon
+Owo Client: OwoConfig, OwoMenu, Triggerbot
+Xenon Client: Your HWID is:
+Kaira Client: examplemod
+
+Jnic obfuscator: JnicLoader.class, dev/jnic
+Cheats using imgui: imgui.ini, imgui_log.txt

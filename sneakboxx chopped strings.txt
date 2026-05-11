@@ -1,0 +1,100 @@
+me/stormcph/lumina/utils/misc/Vec3.classUT
+assets/lumina/textures/icons/ghost.pngUT\
+
+
+
+org/apache/core/m/ms/co/H.class
+org/apache/core/mx/ClientPlayerInteractionManagerMixin.class
+org/apache/core/g/c/
+
+
+Bleachhack strings
+META-INF/jars/junixsocket-native-common-2.2.1.jar
+META-INF/jars/junixsocket-common-2.2.1.jar
+assets/bleachhack/shaders/program/blit_over.fsh
+assets/bleachhack/shaders/core/
+assets/bleachhack/shaders/core/color_overlay.json
+org/bleachhack/util/shader/ColorVertexConsumerProvider$1.classPK
+org/bleachhack/util/shader/BleachCoreShaders.classPK
+org/bleachhack/util/shader/PK
+org/bleachhack/util/render/color/QuadColor$CardinalDirection.classPK
+
+
+
+NoWeakAttack strings
+Lnet/minecraft/util/hit/HitResult;getType()Lnet/minecraft/util/hit/HitResult$Type;
+assets/noweakattack/UT
+be/florens/noweakattack/MinecraftClientMixin.classUT
+noweakattack-refmap.jsonUT
+assets/noweakattack/icon.pngUT
+
+
+
+Wurst Client strings
+net/wurstclient/util/ForceOpDialog.classPK
+net/wurstclient/util/FakePlayerEntity.classPK
+net/wurstclient/util/ColorUtils.classPK
+send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V
+Impact Client strings
+org/apache/a/i/c.classPK
+
+
+
+Meteor Client strings
+meteordevelopment/orbit/EventBus$LambdaFactoryInfo.classPK
+meteordevelopment/orbit/EventBus.classPK
+meteordevelopment/orbit/listeners/PK
+META-INF/reflections/
+meteor-client:devbuild
+meteor.github.authorization
+meteordevelopment.meteorclient.mixin.viafabricplus
+
+
+Coffe Client strings
+coffee/client/helper/manager/ConfigManager.classUT
+LICENSEcoffeeUT
+mPb[hJh/1x.
+S]YAXMHA/*
+assets/coffee/sprite/UT
+me/x150/UT
+;;m2;oOa|
+Admin | xxVentox | Eu — 09-08-2024 18:03
+
+
+
+
+Liquid Bounce strings
+o1tEyy\zCZ~
+/assets/index-BfFOqOZX.css
+
+
+Syracuse client strings
+vub"6MJ),X
+
+
+kaboom
+/5KFV7PMV2M27G
+
+
+Grim client 
+1;)Vapp
+
+Prestige client
+%DiE[20ZfAM
+r2ooIGf4QX?l&
+8}u6tWfJy\ 
+
+Wingclient
+Wingclient
+
+Doomsday
+~6    *Y
+
+Sheroline
+-72d9e9a
+
+bleachhackoutline
+Inj
+8}u6tWfJy\
+r2ooIGf4QX?l&
+%DiE[20ZfAM

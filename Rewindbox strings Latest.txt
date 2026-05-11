@@ -1,0 +1,39 @@
+## String List
+
+VURwU | Doomsday
+pFwthnO | Doomsday
+iTxHWpLAud | Doomsday
+mz42dq | Old, but working again
+McLPXEl | Current version of Nova (working and tested)
+PPPPQPTPUUUUUUUUUUUUUUUU | Current version of Nova (working and tested)
+F5h0HM3 | Current version of Nova (working and tested)
+ops/ec/base/aopthngt/ | Grim, cracked
+me/jellysquid/mods/lithium/mixin/KeyBindingAccessor | Old nova crack
+abc/def/qIHISX | Different crack of grim
+st/mixin/KeyboardMixin | St trigger bot
+chickenpanckakesinwaffle | Vertex lib 
+hit_cooldown | Vertex lib & ConfigLib
+.lattia | Config lib & VertexLib
+ezlghnaonumeylah | Different TriggerLib client's (Configlib, vertex, memoryleak, etc)
+bre2el/fpsreducer/feature/module/ | Virgin Client (1.21 version)
+feature/module/modules/combat/TriggerBot | Virgin Client (Different version)
+rg/core/e/e/AttackEntity | Francium
+QZNMxL9dJW | Nova crack
+lCZ2W6z0oW | Nova crack
+dev/zprestige/ | Prestige mod
+net/caffeinemc/phosphor/gui/Asteria | AsteriaRip crack
+smoothboot/client/module/combat/AimAssist | Virgin (different version)
+module/impl/modules/Client/ | Virgin (Different version)
+org/appleskin/module/combat/ | Grandline Client
+stephen/nexus/mixin/game/ | Nexus client crack
+thunderhack/module | Thunderhack
+net/mommymarlow/marlowclient/module/impl/combat/ | Marlowclient
+nixoly/scrim/module/ | Scrim Client
+/dev/krypton/mixin/HeightRangePlacementModifierAccessor.class | Krypton Client
+assets/catlean | Catlean
+bleachhack_outline | GhostBleach
+SelfDestruct.java | Wing Client
+
+Feel free to use strings for clients that aren't included in this list
+
+Full ss guide soon

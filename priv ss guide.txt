@@ -1,0 +1,120 @@
+Win + r and search this: C:/ProgramData/Oracle/Java/.oracle_jre_usage/
+click hacker at the top left corner of process hacker and click the blueshield and click yes, afterward search dcomla and click on either the 1st one or the 3rd one then enter .jar with contain (case-insensitivity)
+
+After please go to the main page of process hacker and ctrl + k then search javaw.exe, after that go click on memmory -> untick hide free region -> click strings -> enter 4 in minimum length -> then tick all the boxes -> wait for it to load -> click on filter -> always click on the second option -> paste the strings thats at the bottom and each time you paste the string, please highlight it all or ctrl + a before press ok
+jAGY
+.lattia
+st/mixin/KeyboardMixin
+?2e%
+p2xD
+KT_No
+XyWB
+-bleachhack_outline
+hQRES
+tsEK$
+nXw]s
+hYx%J
+mz42dq
+XSk#N
+?86MW]3
+mv{u_X, )2~BE
+]YLpCWA5!F[:n
+noweakattack
+)2~BE
+YZWWWWWWWWWWWWWWWWWW
+getEventButtonState
+AchillesPlayer
+gettargetmargain (Possible false!)
+coffee/client/helper/manager/ConfigManager.classUT
+assets/coffee/sprite/UT, LICENSE_coffeeUT
+net/skligga
+net/skliggahack/module/modules/misc/
+org/bleachhack/util/shader/PK
+assets/bleachhack/shaders/core/
+vub"6MJ),X
+org/apache/core/mx/MinecraftClientMixin.class
+org/apache/core/g/c/
+1;)Vapp
+%DiE[20ZfAM
+dev/zprestige/prestige/api/mixin/MixinLightmapTextureManager.classPK
+self de
+Win + r and search this: C:/ProgramData/Oracle/Java/.oracle_jre_usage/
+click hacker at the top left corner of process hacker and click the blueshield and click yes, afterward search dcomla and click on either the 1st one or the 3rd one then enter .jar with contain (case-insensitivity)
+
+After please go to the main page of process hacker and ctrl + k then search javaw.exe, after that go click on memmory -> untick hide free region -> click strings -> enter 4 in minimum length -> then tick all the boxes -> wait for it to load -> click on filter -> always click on the second option -> paste the strings thats at the bottom and each time you paste the string, please highlight it all or ctrl + a before press ok
+jAGY
+.lattia
+st/mixin/KeyboardMixin
+?2e%
+p2xD
+KT_No
+XyWB
+-bleachhack_outline
+hQRES
+tsEK$
+nXw]s
+hYx%J
+mz42dq
+XSk#N
+?86MW]3
+mv{u_X, )2~BE
+]YLpCWA5!F[:n
+noweakattack
+)2~BE
+YZWWWWWWWWWWWWWWWWWW
+getEventButtonState
+AchillesPlayer
+gettargetmargain (Possible false!)
+coffee/client/helper/manager/ConfigManager.classUT
+assets/coffee/sprite/UT, LICENSE_coffeeUT
+net/skligga
+net/skliggahack/module/modules/misc/
+org/bleachhack/util/shader/PK
+assets/bleachhack/shaders/core/
+vub"6MJ),X
+org/apache/core/mx/MinecraftClientMixin.class
+org/apache/core/g/c/
+1;)Vapp
+%DiE[20ZfAM
+dev/zprestige/prestige/api/mixin/MixinLightmapTextureManager.classPK
+self de
+Win + r and search this: C:/ProgramData/Oracle/Java/.oracle_jre_usage/
+click hacker at the top left corner of process hacker and click the blueshield and click yes, afterward search dcomla and click on either the 1st one or the 3rd one then enter .jar with contain (case-insensitivity)
+
+After please go to the main page of process hacker and ctrl + k then search javaw.exe, after that go click on memmory -> untick hide free region -> click strings -> enter 4 in minimum length -> then tick all the boxes -> wait for it to load -> click on filter -> always click on the second option -> paste the strings thats at the bottom and each time you paste the string, please highlight it all or ctrl + a before press ok
+jAGY
+.lattia
+st/mixin/KeyboardMixin
+?2e%
+p2xD
+KT_No
+XyWB
+-bleachhack_outline
+hQRES
+tsEK$
+nXw]s
+hYx%J
+mz42dq
+XSk#N
+?86MW]3
+mv{u_X, )2~BE
+]YLpCWA5!F[:n
+noweakattack
+)2~BE
+YZWWWWWWWWWWWWWWWWWW
+getEventButtonState
+AchillesPlayer
+gettargetmargain (Possible false!)
+coffee/client/helper/manager/ConfigManager.classUT
+assets/coffee/sprite/UT, LICENSE_coffeeUT
+net/skligga
+net/skliggahack/module/modules/misc/
+org/bleachhack/util/shader/PK
+assets/bleachhack/shaders/core/
+vub"6MJ),X
+org/apache/core/mx/MinecraftClientMixin.class
+org/apache/core/g/c/
+1;)Vapp
+%DiE[20ZfAM
+dev/zprestige/prestige/api/mixin/MixinLightmapTextureManager.classPK
+self de

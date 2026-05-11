@@ -1,0 +1,62 @@
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)
+First of all check their minecraft, what version, client etc. 
+Here's some useful info when it comes to the clients itself. 
+
+Lunar 1.19.3, 1.19.2, 1.19, 1.18.2, 1.18, 1.17.1, 1.17, 1.16.5 Are very unlikely to have a cheater on, As their client requires mappings that are harder for client developers to get.
+Badlion All versions apart from 1.12, 1.17.1 Are very unlikely to have a cheater on.
+Fabric based client Feather Fabric, Quilt, Fabric, Any fork of the Fabric that uses it's API can be used with Fabric mods Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Forge based client Labymod, Feather Forge, Any client using Forge Modding API, Cheaters are able to use Mods/Addons on these clients to give themselves an advantage.
+Other If you're completely unsure what client they're using etc, Just do the basics anyways.
+
+Once you've done that, Check their mods folder by running either commands 
+
+Feather Client
+WIN + R » %USERPROFILE%\AppData\Roaming.feather\user-mods 
+Minecraft Launcher 
+WIN + R » %USERPROFILE%\AppData\Roaming.minecraft\mods 
+Other
+I'd recommend searching it up, shouldn’t be too hard.
+
+
+Make sure you check the Date Modified part of each folder, if the following folders were modified while MC was running, you can ban the person. 
+Minecraft Launcher Mods
+Feather Client -> Feather Mods
+
+When it comes to resource packs, check if the resourcepack folder was modified very recently, check for after they we're frozen especially. If there is any folders todo with mods/addons etc, things that shouldn't be modified normally when the games running. If those folders were modified that should be alarming. To check the recycling bin you can do:
+WIN + R » "Control Folders" » View » "Hidden Files and Folders" » "Show hidden files, folders and drives" WIN + R » C:$Recycle.bin 
+Once you've done that, You should be able to easily and effectively check the recycling bin.
+
+Deleted Files, Injected DLLs, Decompile Mods 
+
+To check what a mod contains etc, If the mod the player may be using has any type of self-destruct mechanism, Here's what you should do. 
+Download Recaf
+Run Recaf
+Once you've opened it, drag the mod you suspect to be a cheat into the place where it says "Drop application [class/jar] to begin.” 
+Go to Search Which is located at the top.
+Once you're at Search Click on "Strings" where it says "String, Content of the string" Put in the value that could be in the client, For instance reach etc
+
+Windows System 
+
+Services 
+The services we're allowed to ban for if their disabled include. 
+Sysmain » Prefetch depends on it
+Pcasvc » Helps us with file logging
+DPS » Helps us with strings, timestamps etc
+Dusmsvc » Needed for event logging, most forensics tools use it
+Eventlog » Needed for event logging
+Appinfo » Needed for providing info about most processes
+BAM » Needed for providing info on background processes Recent.
+
+This path will show the most recently used files, folders, etc. 
+This is very simple to access. To do so simply run: 
+WIN + R » Shell:recent 
+
+Echo
+If you own echo, run a quick echo scan through the person
+Make sure to have all the echo strings from every possible client there is
+If you are not sure ask another staff if there is one available at the moment
+Warning: Echo can false flag a lot so be aware of the false flags^
+
+USB
+USB Cheating is known for using Doomsday, if you cannot find anything in the app Process Hacker 2 ( Doomsday Strings) and you do not own the Echo USB String try going into the Explorer and search for USB, also check their Notifications ( bottom right of taskbar)
+Search ' getTargetingMargarin ' of anything pops up ban (expands hitboxes)
