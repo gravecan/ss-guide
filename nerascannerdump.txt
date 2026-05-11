@@ -1,0 +1,290 @@
+        // mc
+        {"karma.rip"_x, "Player visited Karma.rip (Karma Client) at some point"_x},
+        {"entropy.club"_x, "Player visited Entropy.club (Entropy Client) at some point"_x},
+        {"dreamclient.xyz"_x, "Player visited Dreamclient.xyz (Dream Client) at some point"_x},
+        {"dope.sapphire.ac"_x, "Player visited dope.sapphire.ac (Cracked Dope Client) at some point"_x},
+        {"novaclient.lol"_x, "Player visited novaclient.lol (Nova Client) at some point"_x},
+        {"doomsdayclient.com"_x, "Player visited doomsdayclient.com (DoomsDay Client) at some point"_x},
+        // fivem
+        { "skript.gg"_x, "Player visited skript.gg (FIVEM) at some point"_x},
+        { "tzproject.com"_x, "Player visited tzproject.com (FIVEM) at some point"_x},
+        { "gta.2take1.menu"_x, "Player visited gta.2take1.menu (FIVEM) at some point"_x},
+        { "bzzware.pythonanywhere.com"_x, "Player visited bzzware.pythonanywhere.com (FIVEM) at some point"_x},
+        { "machocheats.com"_x, "Player visited machocheats.com (FIVEM) at some point"_x},
+        { "hxcheats.tech"_x, "Player visited hxcheats.tech (FIVEM) at some point"_x }
+
+
+void initializeGenericRules() {
+    addGenericRule("meteor_client_strings", R"(
+rule meteor_client_strings {
+  meta:
+    description = "Meteor Client"
+    detail = "Strings"
+  strings:
+    $s1 = "Meteor Client"
+    $s2 = "meteor-client"
+    $s3 = "meteordevelopment/meteorclient/utils/render/postprocess/PostProcessShaders"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_triggerbot_strings", R"(
+rule generic_triggerbot_strings {
+  meta:
+    description = "Generic Triggerbot"
+    detail = "Strings"
+  strings:
+    $s1 = "triggerbotEnabled"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_hitbox_strings", R"(
+rule generic_hitbox_strings {
+  meta:
+    description = "Generic Hitbox"
+    detail = "Strings"
+  strings:
+    $s1 = "Lnet/minecraft/class_1297;method_5871()F"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_francium_strings", R"(
+rule generic_francium_strings {
+  meta:
+    description = "Generic Francium"
+    detail = "Strings"
+  strings:
+    $s1 = "rg/core/e/e/AttackEntity"
+    $s2 = "GetTargetMargin"
+    $s3 = "Francium-slls"
+    $s4 = "rg/core/e/e"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_thunderhack_strings", R"(
+rule generic_thunderhack_strings {
+  meta:
+    description = "Generic Thunderhack"
+    detail = "Strings"
+  strings:
+    $s1 = "thunderhack/module"
+    $s2 = "assets/catlean"
+    $s3 = "thunderhack.org"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_grandline_strings", R"(
+rule generic_grandline_strings {
+  meta:
+    description = "Generic Grandline"
+    detail = "Strings"
+  strings:
+    $s1 = "org/appleskin/module/combat/"
+    $s2 = "stephen/nexus/mixin/game/"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_virgin_strings", R"(
+rule generic_virgin_strings {
+  meta:
+    description = "Generic Virgin"
+    detail = "Strings"
+  strings:
+    $s1 = "bre2el/fpsreducer/PK"
+    $s2 = "bre2el/fpsreducer/feature/module/"
+    $s3 = "feature/module/modules/combat/TriggerBot"
+    $s4 = "smoothboot/client/module/combat/AimAssist"
+    $s5 = "module/impl/modules/Client/"
+    $s6 = "bre2el/fpsreducer/feature/module/modules/client/SelfDestruct"
+    $s7 = "bre2el/fpsreducer/client/Main.java"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_asteria_strings", R"(
+rule generic_asteria_strings {
+  meta:
+    description = "Generic Asteria"
+    detail = "Strings"
+  strings:
+    $s1 = "net/caffeinemc/phosphor/gui/Asteria"
+    $s2 = "AsteriaClient"
+    $s3 = "Asteria"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_prestige_strings", R"(
+rule generic_prestige_strings {
+  meta:
+    description = "Generic Prestige"
+    detail = "Strings"
+  strings:
+    $s1 = "dev/zprestige/"
+    $s2 = "dev/zprestige/prestige/api/mixin/MixinLightmapTextureManager.classPK"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_grim_strings", R"(
+rule generic_grim_strings {
+  meta:
+    description = "Generic Grim"
+    detail = "Strings"
+  strings:
+    $s1 = "ops/ec/base/aopthngt/"
+    $s2 = "abc/def/qIHISX"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_doomsday_strings", R"(
+rule generic_doomsday_strings {
+  meta:
+    description = "Generic Doomsday"
+    detail = "Strings"
+  strings:
+    $s1 = "VURwU"
+    $s2 = "`gq`lZxwVQp` "
+    $s3 = "pFwthnO"
+    $s4 = "b/otKY%xY]$;1f 8)"
+    $s5 = "5Ra1Z 7)"
+    $s6 = "G'VGyr4ogt 6)"
+    $s7 = "fyWKA@ 5)"
+    $s8 = "YZWWWWWWWWWWWWWWWWWWW"
+    $s9 = "YpBC"
+    $s10 = "nXw]s"
+    $s11 = "p~,R"
+    $s12 = "iTxHWpLAud"
+    $s13 = "mz42dq"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_configlib_strings", R"(
+rule generic_configlib_strings {
+  meta:
+    description = "Generic Configlib"
+    detail = "Strings"
+  strings:
+    $s1 = "chickenpanckakesinwaffle"
+    $s2 = "hit_cooldown"
+    $s3 = "st/mixin/KeyboardMixin"
+    $s4 = ".lattia"
+    $s5 = "ezlghnaonumeylah"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_bleach_strings", R"(
+rule generic_bleach_strings {
+  meta:
+    description = "Generic Bleachhack"
+    detail = "Strings"
+  strings:
+    $s1 = "bleachhack_outline"
+    $s2 = "org/bleachhack/util/shader/PK"
+    $s3 = "assets/bleachhack/shaders/core/"
+    $s4 = ".1;)Vapp"
+    $s5 = "ghostbleach"
+    $s6 = "bleachhack"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_lumina_strings", R"(
+rule generic_lumina_strings {
+  meta:
+    description = "Generic Lumina"
+    detail = "Strings"
+  strings:
+    $s1 = "luminaclient.com"
+    $s2 = "Y=K/v"
+    $s3 = "0x219c7a7d5e6"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_wurst_strings", R"(
+rule generic_wurst_strings {
+  meta:
+    description = "Generic Wurst Client"
+    detail = "Strings"
+  strings:
+    $s1 = "wurstclient"
+    $s2 = "net/wurst"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_achilles_strings", R"(
+rule generic_achilles_strings {
+  meta:
+    description = "Generic Wurst Client"
+    detail = "Strings"
+  strings:
+    $s1 = "achilles"
+    $s2 = "achillesclient"
+    $s3 = "achilles.dll"
+    $s4 = "7tVIZ"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_scrim_strings", R"(
+rule generic_scrim_strings {
+  meta:
+    description = "Generic Scrim Client"
+    detail = "Strings"
+  strings:
+    $s1 = "nixoly/scrim/module/"
+    $s2 = "nixoly/scrim"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_krypton_strings", R"(
+rule generic_krypton_strings {
+  meta:
+    description = "Generic Krypton Client"
+    detail = "Strings"
+  strings:
+    $s1 = "/dev/krypton/mixin/HeightRangePlacementModifierAccessor.class"
+    $s2 = "/dev/krypton/"
+    $s3 = "abc/def/utils/TaskUtil"
+    $s4 = "abc/def/utils/render/f/GlyphPageRenderer"
+  condition:
+    any of them
+}
+    )");
+    addGenericRule("generic_universal_strings", R"(
+rule generic_universal_strings {
+  meta:
+    description = "Generic Universal Strings"
+    detail = "Strings"
+  strings:
+    $s1 = "Auto Crystal"
+    $s2 = "Self Destruct"
+    $s3 = "Auto Anchor"
+    $s4 = "Auto Loot Yeeter"
+    $s5 = "hitbox_expand"
+    $s6 = "expand_hitbox"
+    $s7 = "st/mixin/KeyboardMixin"
+    $s8 = "SelfDestruct.java"
+    $s9 = "GetTargetingMargain"
+    $s10 = "CwCrystal.class"
+    $s11 = "ADH.class"
+    $s12 = "ModuleManager.class"
+    $s13 = "qProtectYZWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+    $s14 = "geteventbutton"
+    $s15 = "qProtect"
+  condition:
+    any of them
+}
+
+
