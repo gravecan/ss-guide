@@ -1,0 +1,225 @@
+{
+    "Novoware"_x,
+    {
+        "aHR0cDovL2FwaS5ub3ZhY2xpZW50LmxvbC93ZWJob29rLnR4dA=="_x,
+        "addFri"_x,
+        "McLPXEl"_x,
+        "QZNMxL9dJW"_x,
+        "me/jellysquid/mоds/lіthіum/cоmmon/state/"_x,
+        "me/jellysquid/mоds/lіthіum/cоmmon/state/client/SelfDestruct.class"_x,
+        "me/jellysquid/mоds/lіthіum/cоmmon/state/combat/AimAssist.class"_x,
+        "lCZ2W6z0oW"_x,
+        "PPPPQPTPUUUUUUUUUUUUUUUU"_x,
+        "F5h0HM3"_x,
+        "antiAttack"_x,
+        "me/jellysquid/mods/lithium/mixin/KeyBindingAccessor"_x,
+        "Lithium is not initialized! Skipping event: "_x,
+        "native0/Loader"_x,
+        "e/m"_x,
+        "net/arikia/dev/drpc/OSUtil"_x,
+        "net/arikia/dev/drpc/DiscordRPC"_x,
+        "assets/a.ttf"_x,
+        "assets/b.ttf"_x,
+        "assets/c.ttf"_x,
+        "assets/b3.ttf"_x,
+        "native0/x64-windows.dll"_x,
+        "Error in hash"_x
+    }
+},
+{
+    "Francium"_x,
+    {
+        "rg/core/e/e/AttackEntity"_x,
+        "GetTargetMargin"_x,
+        "Francium-slls"_x,
+        "rg/core/e/e"_x
+    }
+},
+{
+    "Thunderhack"_x,
+    {
+        "thunderhack/module"_x,
+        "assets/catlean"_x,
+        "thunderhack.org"_x
+    }
+},
+{
+    "Grandline"_x,
+    {
+        "org/appleskin/module/combat/"_x,
+        "stephen/nexus/mixin/game/"_x
+    }
+},
+{
+    "Virgin Client"_x,
+    {
+        "bre2el/fpsreducer/PK"_x,
+        "bre2el/fpsreducer/feature/module/"_x,
+        "feature/module/modules/combat/TriggerBot"_x,
+        "smoothboot/client/module/combat/AimAssist"_x,
+        "module/impl/modules/Client/"_x
+    }
+},
+{
+    "AsteriaRip"_x,
+    {
+        "net/caffeinemc/phosphor/gui/Asteria"_x,
+        "Asteria"_x,
+        "AsteriaClient"_x
+    }
+},
+{
+    "Prestige"_x,
+    {
+        "zPrestige"_x,
+        "dev/zprestige/"_x,
+        "dev/zprestige/prestige/api/mixin/MixinLightmapTextureManager.classPK"_x
+    }
+},
+{
+    "Nera Client"_x,
+    {
+        "bre2el/fpsreducer/PK"_x,
+        "bre2el/fpsreducer/client/Main.java"_x,
+        "bre2el/fpsreducer/feature/module/modules/client/SelfDestruct"_x,
+        "SelfDestruct.java"_x
+    }
+},
+{
+    "Grim Client"_x,
+    {
+        "ops/ec/base/aopthngt/"_x,
+        "abc/def/qIHISX"_x
+    }
+},
+{
+    "Doomsday Client"_x,
+    {
+        "VURwU"_x,
+        "`gq`lZxwVQp` "_x,
+        "pFwthnO"_x,
+        "b/otKY%xY]$;1f 8)"_x,
+        "5Ra1Z 7)"_x,
+        "G'VGyr4ogt 6)"_x,
+        "fyWKA@ 5)"_x,
+        "YZWWWWWWWWWWWWWWWWWWW"_x,
+        "YpBC"_x,
+        "nXw]s"_x,
+        "p~,R"_x,
+        "iTxHWpLAud"_x,
+        "Doomsday"_x,
+        "mz42dq"_x
+    }
+},
+{
+    "Vertex / Configlib"_x,
+    {
+        "chickenpanckakesinwaffle"_x,
+        "hit_cooldown"_x,
+        "st/mixin/KeyboardMixin"_x,
+        ".lattia"_x,
+        "ezlghnaonumeylah"_x
+    }
+},
+{
+    "Bleachhack"_x,
+    {
+        "bleachhack_outline"_x,
+        "org/bleachhack/util/shader/PK"_x,
+        "assets / bleachhack / shaders / core / "_x,
+        ".1;)Vapp"_x,
+        "ghostbleach"_x,
+        "bleachhack"_x
+    }
+},
+{
+    "Lumina"_x,
+    {
+        "luminaclient.com"_x,
+        "Y=K/v"_x,
+        "0x219c7a7d5e6"_x
+    }
+},
+{
+    "Wurst Client"_x,
+    {
+        "wurstclient"_x,
+        "net/wurst"_x,
+        "WurstClient"_x,
+        "wurst.client"_x,
+        "wurstclient.net"_x
+    }
+},
+{
+    "Nursultan"_x,
+    {
+        "<Ky{d"_x,
+        "nursultan"_x
+    }
+},
+{
+    "Meteor Client"_x,
+    {
+        "meteorclient"_x,
+        "meteorhack"_x,
+        "MeteorClient"_x,
+        "meteor.client"_x,
+        "meteorclient.net"_x
+    }
+},
+{
+    "Syracuse"_x,
+    {
+        "syracuse"_x,
+        "srcclient"_x,
+        "syracuseclient"_x,
+        "syracuse.client"_x
+    }
+},
+{
+    "Achilles"_x,
+    {
+        "achilles"_x,
+        "achillesclient"_x,
+        "achilles.dll"_x,
+        "7tVIZ"_x
+    }
+},
+{
+    "Universal"_x,
+    {
+        "Auto Crystal"_x,
+        "Self Destruct"_x,
+        "Auto Anchor"_x,
+        "Auto Loot Yeeter"_x,
+        "hitbox_expand"_x,
+        "expand_hitbox"_x,
+        "ZuCo"_x,
+        "ZuCo.(<l3?NB.0BC"_x,
+        "st/mixin/KeyboardMixin"_x,
+        "SelfDestruct.java"_x,
+        "GetTargetingMargain"_x,
+        "CwCrystal.class"_x,
+        "ADH.class"_x,
+        "ModuleManager.class"_x,
+        "qProtectYZWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"_x,
+        "geteventbutton"_x,
+        "qProtect"_x
+    }
+},
+{
+    "Scrim Client"_x,
+    {
+        "nixoly/scrim/module/"_x,
+        "nixoly/scrim"_x
+    }
+},
+{
+    "Krypton Client"_x,
+    {
+        "/dev/krypton/mixin/HeightRangePlacementModifierAccessor.class"_x,
+        "/dev/krypton/"_x,
+        "abc/def/utils/TaskUtil"_x,
+        "abc/def/utils/render/f/GlyphPageRenderer"_x
+    }
+}

@@ -1,0 +1,20 @@
+rule Packed_Entropy_File
+{
+    meta:
+        description = "Detects packed executables by analyzing section entropy"
+        severity = "warning"
+    
+    condition:
+        uint16(0) == 0x5A4D and
+        filesize >= 50 * 1024 and
+        filesize <= 50 * 1024 * 1024 and
+        for any i in (0..pe.number_of_sections - 1) : (
+            pe.sections[i].name == ".text" or
+            pe.sections[i].name == "CODE" or
+            pe.sections[i].name == ".data"
+        ) and
+        for any i in (0..pe.number_of_sections - 1) : (
+            math.entropy(pe.sections[i].raw_data_offset, 
+                        pe.sections[i].raw_data_size) >= 7.2
+        )
+}
