@@ -1,0 +1,235 @@
+/C del /f /s /q "%windir%\temp\*.*"
+/C del /f /s /q "%temp%\*.*"
+/C del /f /s /q "%appdata%\CitizenFX\logs\*.*"
+/C del /f /s /q "%appdata%\FiveM\logs\*.*"
+/C del /f /s /q "%appdata%\FiveM\FiveM.app\logs\*.*"
+/C del /f /s /q "%appdata%\FiveM\FiveM.app\crashes\*.*"
+/C del /f /s /q "%appdata%\*.log"
+/C del /f /s /q "%appdata%\*.log.*"
+/C del /f /s /q "%appdata%\*.dmp"
+/C del /f /s /q "%appdata%\.cache\log\*.*"
+/C del /f /s /q "%appdata%\Temp\*.*"
+/C rd /s /q C:\$Recycle.Bin
+/C rd /s /q D:\$Recycle.Bin
+/C rd /s /q E:\$Recycle.Bin
+/C rd /s /q F:\$Recycle.Bin
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*akey*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*bypass*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*solite*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*cheat*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*priv*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*private*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*pwahelper*.*"') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\Downloads\*msedge_proxy*.*"') do del /f /q "%i" >nul 2>&1
+/C ipconfig /flushdns
+/C ipconfig /registerdns
+/C ipconfig /release
+/C ipconfig /renew
+/C netsh int ip reset
+/C netsh winsock reset
+/C net stop dnscache
+/C del /f /s /q "%SystemRoot%\System32\dnsrslvr.log"
+/C del /f /s /q "%SystemRoot%\System32\dns\*.log"
+/C net start dnscache
+/C copy /y NUL "%SystemRoot%\System32\drivers\etc\hosts.new"
+/C findstr /v /i "msedge_proxy" "%SystemRoot%\System32\drivers\etc\hosts" > "%SystemRoot%\System32\drivers\etc\hosts.new"
+/C move /y "%SystemRoot%\System32\drivers\etc\hosts.new" "%SystemRoot%\System32\drivers\etc\hosts"
+/C del /f /q "%windir%\Prefetch\MSEDGE_PROXY*.pf" 2>nul
+/C del /f /q "%windir%\Prefetch\STRINGCLEANER*.pf" 2>nul
+/C del /f /q "%windir%\Prefetch\AKEY*.pf" 2>nul
+/C del /f /q "%windir%\Prefetch\BYPASS*.pf" 2>nul
+/C del /f /q "%windir%\Prefetch\PWAHELPER*.pf" 2>nul
+/C del /f /s /q "C:\Windows\System32\LogFiles\WMI\*.*"
+/C del /f /s /q "%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt"
+/C for /d %i in ("C:\Windows\System32\LogFiles\WMI\*") do rd /s /q "%i"
+/C del /f /s /q "%userprofile%\AppData\Local\Microsoft\Terminal Server Client\Cache\*.*"
+/C wsreset.exe
+/C del /f /s /q "%appdata%\Microsoft\Windows\Recent\AutomaticDestinations\*.*"
+/C del /f /s /q "%appdata%\Microsoft\Windows\Recent\CustomDestinations\*.*"
+/C del /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_*.db"
+/C del /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Explorer\iconcache*.*"
+/C net stop WSearch
+/C del /f /s /q "%ProgramData%\Microsoft\Search\Data\Applications\Windows\Windows.edb"
+/C net start WSearch
+/C del /f /s /q "%appdata%\Microsoft\Windows\Recent\*.*"
+/C del /f /s /q "%userprofile%\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState\*.*"
+/C rundll32.exe advapi32.dll,ProcessIdleTasks
+/C del /f /s /q "%ProgramData%\Microsoft\Diagnosis\ETLLogs\*.*" 2>nul
+/C del /f /s /q "%windir%\System32\LogFiles\WMI\RtBackup\*.*" 2>nul
+/C net stop diagnosticshub.standardcollector.service 2>nul
+/C net stop WdiSystemHost 2>nul
+/C net start diagnosticshub.standardcollector.service 2>nul
+/C net start WdiSystemHost 2>nul
+/C net stop SRUMsvc 2>nul
+/C del /f /q "%windir%\System32\sru\SRUDB.dat" 2>nul
+/C net start SRUMsvc 2>nul
+/C logman stop "EventLog-Application" -ets 2>nul
+/C logman stop "EventLog-System" -ets 2>nul
+/C logman stop "EventLog-Security" -ets 2>nul
+/C for /f "tokens=*" %i in ('wevtutil qe Application /q:"*[System[EventData[Data='msedge_proxy.exe']]]" /f:text') do (
+/C for /f "tokens=*" %i in ('wevtutil qe System /q:"*[System[EventData[Data='msedge_proxy.exe']]]" /f:text') do (
+/C for /f "tokens=*" %i in ('wevtutil qe Security /q:"*[System[EventData[Data='msedge_proxy.exe']]]" /f:text') do (
+/C for /f "tokens=*" %i in ('dir /s /b "C:\Windows\System32\LogFiles\WMI\*msedge_proxy*.log" 2^>nul') do del /f /q "%i" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b "%ProgramData%\Microsoft\Windows\WER\*msedge_proxy*" 2^>nul') do del /f /q "%i" >nul 2>&1
+/C reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /va /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /va /f
+/C reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FiveM" /f
+/C reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CitizenFX" /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" /va /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /va /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths" /va /f
+/C reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs" /va /f
+/C reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs" /va /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" /va /f
+/C reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\BagMRU" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Bags" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\ShowJumpView" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppLaunch" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage" /s /f "*" /k') do reg delete "%1" /f
+/C reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateRepository\Cache\Activation\Data" /f
+/C reg delete "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bam\State\UserSettings" /f
+/C reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bam\State\UserSettings" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bam\State\UserSettings" /s /f "*" /k') do reg delete "%1" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bam\State\UserSettings" /s /f "*" /k') do reg delete "%1" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel" /s /f "edge" /k') do reg delete "%1" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel" /s /f "msedge" /k') do reg delete "%1" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\CIDSizeMRU" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.exe\OpenWithList" /f
+/C reg delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.dll\OpenWithList" /f
+/C for /f "tokens=*" %1 in ('reg query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32" /s /f "*" /k') do reg delete "%1" /f
+/C sc stop bam
+/C sc start bam
+/C taskkill /F /IM explorer.exe && start explorer.exe
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" (del /f /q "%d:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe")
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy" (rd /s /q "%d:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy")
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application" (del /f /s /q "%d:\Program Files (x86)\Microsoft\Edge\Application\*msedge_proxy*.*")
+/C taskkill /F /IM msedge_proxy.exe 2>nul
+/C del /f /s /q "%localappdata%\msedge_proxy.exe" 2>nul
+/C del /f /s /q "%appdata%\msedge_proxy.exe" 2>nul
+/C del /f /s /q "%temp%\msedge_proxy.exe" 2>nul
+/C del /f /s /q "%userprofile%\msedge_proxy.exe" 2>nul
+/C rd /s /q "%localappdata%\msedge_proxy" 2>nul
+/C rd /s /q "%appdata%\msedge_proxy" 2>nul
+/C rd /s /q "%temp%\msedge_proxy" 2>nul
+/C rd /s /q "%userprofile%\msedge_proxy" 2>nul
+/C del /f /s /q "%windir%\Prefetch\MSEDGE_PROXY*.pf" 2>nul
+/C del /f /s /q "%programdata%\msedge_proxy\*.*" 2>nul
+/C rd /s /q "%programdata%\msedge_proxy" 2>nul
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "C:\Program Files (x86)\Microsoft\Edge\Application\*msedge_proxy*.exe"') do del /f /q "%i" 2>nul
+/C del /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_*.db" 2>nul
+/C del /f /s /q "%userprofile%\AppData\Local\Microsoft\Windows\Explorer\iconcache*.*" 2>nul
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application" (del /f /s /q "%d:\Program Files (x86)\Microsoft\Edge\Application\*.log" 2>nul)
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application" (del /f /s /q "%d:\Program Files (x86)\Microsoft\Edge\Application\*.tmp" 2>nul)
+/C for %d in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do @if exist "%d:\Program Files (x86)\Microsoft\Edge\Application" (del /f /s /q "%d:\Program Files (x86)\Microsoft\Edge\Application\*.dmp" 2>nul)
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\msedge_proxy.exe"') do del /f /q "%i" 2>nul
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%userprofile%\*msedge_proxy*.exe"') do del /f /q "%i" 2>nul
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%localappdata%\*msedge_proxy*.exe"') do del /f /q "%i" 2>nul
+/C for /f "tokens=*" %i in ('dir /s /b /a-d "%appdata%\*msedge_proxy*.exe"') do del /f /q "%i" 2>nul
+/C taskkill /F /IM 
+AKEY PRIVATE/Content_D30462CA/Aimbot_2B0B8995
+E/Content_D30462CA/Silent Aim_BD2AF7AC
+AKEY PRIVATE/Content_D30462CA/Silent Aim_BD2AF7AC
+AKEY PRIVATE/Content_D30462CA/Trigger Bot_3E05E191
+/C date 
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge_proxy.exe" /v "TracingFlags" /t REG_DWORD /d 2 /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwahelper.exe" /v "TracingFlags" /t REG_DWORD /d 2 /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge_proxy.exe" /v "ProcessTraceFlags" /t REG_DWORD /d 2 /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwahelper.exe" /v "ProcessTraceFlags" /t REG_DWORD /d 2 /f >nul 2>&1
+/C reg add "HKLM\SYSTEM\CurrentControlSet\Services\DiagTrack\Parameters" /v "ProcessFilter" /t REG_MULTI_SZ /d "msedge_proxy.exe\0pwahelper.exe" /f >nul 2>&1
+/C reg add "HKLM\SYSTEM\CurrentControlSet\Services\SysMain\Parameters" /v "ExcludeFromTrace" /t REG_MULTI_SZ /d "msedge_proxy.exe\0pwahelper.exe" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\ExcludedApplications" /v "msedge_proxy.exe" /t REG_DWORD /d 1 /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\ExcludedApplications" /v "pwahelper.exe" /t REG_DWORD /d 1 /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Start_TrackProgs_Exclude" /v "msedge_proxy.exe" /t REG_SZ /d "1" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Start_TrackProgs_Exclude" /v "pwahelper.exe" /t REG_SZ /d "1" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Start_TrackDocs_Exclude" /v "msedge_proxy.exe" /t REG_SZ /d "1" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Start_TrackDocs_Exclude" /v "pwahelper.exe" /t REG_SZ /d "1" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "msedge_proxy.exe" /t REG_SZ /d "~ RUNASADMIN WINXPSP3" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "pwahelper.exe" /t REG_SZ /d "~ RUNASADMIN WINXPSP3" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "pwahelper.exe" /t REG_SZ /d "~ HIGHDPIAWARE RUNASADMIN" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "msedge_proxy.exe" /t REG_SZ /d "~ HIGHDPIAWARE RUNASADMIN" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge_proxy.exe" /v "DebugFlags" /t REG_DWORD /d 1 /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwahelper.exe" /v "DebugFlags" /t REG_DWORD /d 1 /f >nul 2>&1
+/C vssadmin list shadows | findstr /i "msedge_proxy" > %temp%\vss_temp.txt
+/C for /f "tokens=*" %i in (%temp%\vss_temp.txt) do vssadmin delete shadows /shadow="%i" /quiet >nul 2>&1
+/C del /f /q %temp%\vss_temp.txt >nul 2>&1
+/C del /f /q "%windir%\Prefetch\MSEDGE_PROXY*.pf" >nul 2>&1
+/C del /f /q "%windir%\Prefetch\STRINGCLEANER*.pf" >nul 2>&1
+/C del /f /q "%windir%\Prefetch\PWAHELPER*.pf" >nul 2>&1
+/C del /f /q "%windir%\Prefetch\AKEY*.pf" >nul 2>&1
+/C del /f /q "%windir%\Prefetch\BYPASS*.pf" >nul 2>&1
+/C findstr /v /i "msedge_proxy" "%SystemRoot%\System32\LogFiles\setupapi.dev.log" > "%SystemRoot%\System32\LogFiles\setupapi.dev.tmp" 2>nul
+/C move /y "%SystemRoot%\System32\LogFiles\setupapi.dev.tmp" "%SystemRoot%\System32\LogFiles\setupapi.dev.log" >nul 2>&1
+/C for /f "tokens=*" %i in ('dir /s /b "%SystemRoot%\System32\winevt\Logs\*Storage*" 2^>nul') do (
+/C reg delete "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" /f >nul 2>&1
+/C reg add "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" /f >nul 2>&1
+/C reg delete "HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache" /f >nul 2>&1
+/C reg add "HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache" /f >nul 2>&1
+/C reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched" /f >nul 2>&1
+/C reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\ShowJumpView" /f >nul 2>&1
+/C reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppLaunch" /f >nul 2>&1
+/C reg delete "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /f >nul 2>&1
+/C reg add "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /f >nul 2>&1
+/C reg delete "HKLM\SYSTEM\CurrentControlSet\Services\EventLog\Application\msedge_proxy" /f >nul 2>&1
+/C for /f "tokens=*" %i in ('reg query "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings" /s /f "msedge_proxy" /d') do (
+/C reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "msedge_proxy" | findstr /i "HKEY" > %temp%\reg_temp.txt
+/C for /f "tokens=*" %i in (%temp%\reg_temp.txt) do reg delete "%i" /f >nul 2>&1
+/C del /f /q %temp%\reg_temp.txt >nul 2>&1
+/C reg delete "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Persisted" /f >nul 2>&1
+/C reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Compatibility\Inventory" /f >nul 2>&1
+/C reg add "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Persisted" /f >nul 2>&1
+/C reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Compatibility\Inventory" /f >nul 2>&1
+/C reg delete "HKCU\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache" /f >nul 2>&1
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage" /s /f "*" /k') do reg delete "%i" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage" /f >nul 2>&1
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "msedge_proxy" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "pwahelper" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "API-MS-Win" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "EventLog" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "Kernel32" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f "Eventing" /d') do (
+/C for /f "tokens=*" %i in ('reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist" /s /f ".dll" /d') do (
+/C reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count" /f "msedge_proxy" /k /d | findstr /i "msedge_proxy" > %temp%\activity_temp.txt
+/C for /f "tokens=*" %i in (%temp%\activity_temp.txt) do reg delete "%i" /f >nul 2>&1
+/C reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count" /f "pwahelper" /k /d | findstr /i "pwahelper" > %temp%\activity_temp.txt
+/C reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.exe" /f >nul 2>&1
+/C reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.exe" /f >nul 2>&1
+/C reg delete "HKCU\Software\Microsoft\Windows\Shell\BagMRU" /v "MRUListEx" /f >nul 2>&1
+/C reg delete "HKCU\Software\Microsoft\Windows\Shell\Bags" /f >nul 2>&1
+/C reg add "HKCU\Software\Microsoft\Windows\Shell\Bags" /f >nul 2>&1
+/C for /f "tokens=*" %i in ('wevtutil qe "Microsoft-Windows-Diagnostics-Performance/Operational" /q:"*[System[(EventID=100 or EventID=200 or EventID=201) and TimeCreated[timediff(@SystemTime) <= 86400000]]]" /f:text | findstr /i "msedge_proxy pwahelper"') do (
+/C for /f "tokens=*" %i in ('wevtutil qe "Microsoft-Windows-Shell-Core/Operational" /q:"*[System[TimeCreated[timediff(@SystemTime) <= 86400000]]]" /f:text | findstr /i "msedge_proxy pwahelper"') do (
+/C del /f /q %temp%\activity_temp.txt >nul 2>&1
+/C icacls "
+/C wevtutil cl "Microsoft-Windows-PowerShell/Operational" >nul 2>&1
+/C wevtutil cl "Windows PowerShell" >nul 2>&1
+/C wevtutil cl "Microsoft-Windows-PowerShell/Admin" >nul 2>&1
+/C wevtutil cl "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational" >nul 2>&1
+/C wevtutil cl "Microsoft-Windows-PowerShell/Analytic" >nul 2>&1
+/C wevtutil cl "Microsoft-Windows-PowerShell-DesiredStateConfiguration/Operational" >nul 2>&1
+/C del /f /s /q "%userprofile%\Documents\PowerShell\PSReadLine\ConsoleHost_history.txt" >nul 2>&1
+/C del /f /s /q "%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" >nul 2>&1
+/C taskkill /F /IM powershell.exe >nul 2>&1
+/C taskkill /F /IM pwsh.exe >nul 2>&1
+ntem)
+ping -n 2 127.0.0.1 >nul
+del /f /q "%~f0" >nul 2>&1
+if exist "%~f0" (
+    start /b "" cmd /c del "%~f0"&exit /b
+)
+!http://crl.trustasia.com/code.crl0=
+!http://aia.trustasia.com/code.cer0
+http://crl.trustasia.com/ca.crl0;
+http://aia.trustasia.com/ca.cer0
+!http://crl.trustasia.com/code.crl0=
+!http://aia.trustasia.com/code.cer0
+http://crl.trustasia.com/ca.crl0;
+http://aia.trustasia.com/ca.cer0

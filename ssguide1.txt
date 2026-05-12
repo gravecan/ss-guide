@@ -1,0 +1,65 @@
+Amcache.hve
+
+Logs executed programs.
+
+Path: C:\Windows\AppCompat\Programs\Amcache.hve
+
+Prefetch
+
+Tracks app execution + frequency.
+
+Path: C:\Windows\Prefetch\
+
+Shimcache (AppCompatCache)
+
+Another program execution log.
+
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache
+
+Event Logs
+
+All kinds of logs (logons, crashes, script runs).
+
+Path: C:\Windows\System32\winevt\Logs\
+
+UserAssist
+
+Logs programs opened via Explorer (Start Menu, etc).
+
+Path: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
+
+Jump Lists
+
+Stores recently used files and paths.
+
+Path: %APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\
+
+.lnk Files (Shortcuts)
+
+Point to recently opened files/apps.
+
+Usually in: %APPDATA%\Roaming\Microsoft\Windows\Recent\
+
+SRUM (System Resource Usage Monitor)
+
+Tracks app usage, network activity.
+
+Path: C:\Windows\System32\sru\SRUDB.dat
+
+Pagefile / Hiberfil
+
+Store memory contents.
+
+Paths: C:\pagefile.sys and C:\hiberfil.sys
+
+WMI / Scheduled Tasks
+
+Tasks, scripts, and persistence methods can live here.
+
+View with: Task Scheduler or Get-ScheduledTask
+
+Volume Shadow Copies
+
+Backup snapshots, can contain old data.
+
+View with: vssadmin list shadows
